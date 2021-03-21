@@ -390,3 +390,112 @@ Received Import Request.
 Start importing Assets/FantasyCastleDemo/Textures/ground_2_Specular 1.png using Guid(56f25f577d9d7494cab6fbf6f04e116c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a452411b1170e519da46bfa92d09c23') in 0.013030 seconds
   Import took 0.014940 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 89.012024 seconds.
+  path: Assets/Scenes/Game
+  artifactKey: Guid(b9e1eb1d94eb03446a8474f94a94252b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game using Guid(b9e1eb1d94eb03446a8474f94a94252b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db4a00c2220af99da16d7b4d879c73e') in 0.008600 seconds
+  Import took 0.010648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099154 seconds.
+  path: Assets/Scenes/Game/NavMesh.asset
+  artifactKey: Guid(cf00c09be37efff4999ef0731706a6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/NavMesh.asset using Guid(cf00c09be37efff4999ef0731706a6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2892d87515892a68f8066a7103cbc0') in 0.008622 seconds
+  Import took 0.010632 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001231 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1596.
+Total: 1.785000 ms (FindLiveObjects: 0.231600 ms CreateObjectMapping: 0.073000 ms MarkObjects: 1.431000 ms  DeleteObjects: 0.048100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1598.
+Total: 1.720500 ms (FindLiveObjects: 0.143900 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.484800 ms  DeleteObjects: 0.048200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 288.206859 seconds.
+  path: Assets/Scripts/Grid/Test.cs
+  artifactKey: Guid(daa2921b99baacc4ca77867b2d61002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Grid/Test.cs using Guid(daa2921b99baacc4ca77867b2d61002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf6536b22db1c195dc3bb9f89254e23') in 0.006516 seconds
+  Import took 0.009023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Scripts/Grid/Test.cs
+  artifactKey: Guid(daa2921b99baacc4ca77867b2d61002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Grid/Test.cs using Guid(daa2921b99baacc4ca77867b2d61002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf6536b22db1c195dc3bb9f89254e23') in 0.004314 seconds
+  Import took 0.006370 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000771 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.5 MB.
+System memory in use after: 61.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1600.
+Total: 1.631900 ms (FindLiveObjects: 0.207000 ms CreateObjectMapping: 0.066600 ms MarkObjects: 1.297600 ms  DeleteObjects: 0.059700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.719058 seconds.
+  path: Assets/Scripts/Grid/PointClick.cs
+  artifactKey: Guid(daa2921b99baacc4ca77867b2d61002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Grid/PointClick.cs using Guid(daa2921b99baacc4ca77867b2d61002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72159a693df007663b99adca9ec73cb') in 0.007787 seconds
+  Import took 0.010474 seconds .
+
