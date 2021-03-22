@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class NEWPointClick : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //Tile Holder for managing each tile
+    [SerializeField] private Transform[] tiles;
+    [SerializeField] private float moveSpeed = 5f;
+    public bool isMoving = false;
 
     // Update is called once per frame
     void Update()
     {
-        
+        Camera mainCamera = Camera.main;
+        Vector3 mousePos = Input.mousePosition;
+        Vector3 worldMousePos = mainCamera.ScreenToWorldPoint(mousePos);
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (isMoving)
+            {
+                isMoving = true;
+                Vector3.MoveTowards(transform.position, tiles[0].position, moveSpeed * Time.deltaTime);
+            }
+        }
     }
 }
