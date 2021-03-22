@@ -111,3 +111,4 @@ Received Import Request.
 Start importing Assets/Scripts/Grid/GridTest.cs using Guid(7138274cb19811542b917c1922f8f6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1e60009193efd3b2136c4feee12371') in 0.005451 seconds
   Import took 0.009918 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
