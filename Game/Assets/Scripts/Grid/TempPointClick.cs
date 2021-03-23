@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NEWPointClick : MonoBehaviour
+public class TempPointClick : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
     private Grid grid;
@@ -23,19 +23,19 @@ public class NEWPointClick : MonoBehaviour
         if (Physics.Raycast(mainCamera.ScreenPointToRay(Input.mousePosition), out hit, 100000, 1 << 6))
         {
             transform.position = Vector3.MoveTowards(transform.position, hit.transform.position, moveSpeed * Time.deltaTime);
-            //MoveOnGrid(hit.point);
+            MoveOnGrid(hit.point);
         }
         #endregion
     }
 
     /// <summary>
-    /// This function will force the player to the squares of the grid
+    /// This function will force the player to the squares of the grid.
     /// </summary>
     /// <param name="nearPoint">Nearest point on the grid</param>
     private void MoveOnGrid(Vector3 nearPoint)
     {
-        //Vector3 finalPos = grid.GetNearestTiles(nearPoint);
-        //transform.position = finalPos;
+        Vector3 finalPos = grid.GetNearestTiles(nearPoint);
+        transform.position = finalPos;
     }
     
 }
