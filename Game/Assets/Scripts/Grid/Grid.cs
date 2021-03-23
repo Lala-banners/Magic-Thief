@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GridTest : MonoBehaviour
+public class Grid : MonoBehaviour
 {
     #region Instance
-    public static GridTest Instance = null;
+    public static Grid Instance = null;
     private void Awake()
     {
         if (Instance == null)
@@ -21,6 +21,15 @@ public class GridTest : MonoBehaviour
     #endregion
 
     [SerializeField] private float size = 1f;
+
+    public Tile[,] tiles;
+
+    #region For loop method
+    public void CreateGrid()
+    {
+
+    }
+    #endregion
 
     /// <summary>
     /// Getting the number of points on the grid.
@@ -44,4 +53,6 @@ public class GridTest : MonoBehaviour
 
         return result;
     }
+
+
 }

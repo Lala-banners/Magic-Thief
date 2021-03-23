@@ -5,11 +5,11 @@ using UnityEngine;
 public class NEWPointClick : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
-    private GridTest grid;
+    private Grid grid;
 
     private void Awake()
     {
-        grid = FindObjectOfType<GridTest>();
+        grid = FindObjectOfType<Grid>();
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class NEWPointClick : MonoBehaviour
         if (Physics.Raycast(mainCamera.ScreenPointToRay(Input.mousePosition), out hit, 100000, 1 << 6))
         {
             transform.position = Vector3.MoveTowards(transform.position, hit.transform.position, moveSpeed * Time.deltaTime);
-            GetNearestTile(hit.point);
+            //MoveOnGrid(hit.point);
         }
         #endregion
     }
@@ -32,10 +32,10 @@ public class NEWPointClick : MonoBehaviour
     /// This function will force the player to the squares of the grid
     /// </summary>
     /// <param name="nearPoint">Nearest point on the grid</param>
-    private void GetNearestTile(Vector3 nearPoint)
+    private void MoveOnGrid(Vector3 nearPoint)
     {
-        Vector3 finalPos = grid.GetNearestTiles(nearPoint);
-        transform.position = finalPos;
+        //Vector3 finalPos = grid.GetNearestTiles(nearPoint);
+        //transform.position = finalPos;
     }
     
 }
