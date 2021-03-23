@@ -16,13 +16,16 @@ public class NEWPointClick : MonoBehaviour
         Vector3 mousePos = Input.mousePosition;
         Vector3 worldMousePos = mainCamera.ScreenToWorldPoint(mousePos);
 
-        if (Input.GetMouseButtonDown(0))
+
+        /*if (Input.GetMouseButtonDown(0))
+        {*/
+        isMoving = true;
+        RaycastHit hit;
+        Debug.Log(1 << 6);
+        if (Physics.Raycast(mainCamera.ScreenPointToRay(Input.mousePosition), out hit, 100000, 1 << 6))
         {
-            if (isMoving)
-            {
-                isMoving = true;
-                Vector3.MoveTowards(transform.position, tiles[0].position, moveSpeed * Time.deltaTime);
-            }
+            transform.position = Vector3.MoveTowards(transform.position, hit.transform.position, moveSpeed * Time.deltaTime);
         }
+        //}
     }
 }
