@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GridTest : MonoBehaviour
 {
-    public static GridTest Instance = null;
     #region Instance
+    public static GridTest Instance = null;
     private void Awake()
     {
         if (Instance == null)
@@ -20,21 +20,28 @@ public class GridTest : MonoBehaviour
     }
     #endregion
 
-    
+    [SerializeField] private float size = 1f;
 
-    public void GetTiles(Transform destination, float max, float min = 0)
+    /// <summary>
+    /// Getting the number of points on the grid.
+    /// </summary>
+    /// <param name="pos">Position of the grid points</param>
+    /// <returns></returns>
+    public Vector3 GetNearestTiles(Vector3 pos)
     {
+        pos -= transform.position;
 
+        int xCount = Mathf.RoundToInt(pos.x / size);
+        int yCount = Mathf.RoundToInt(pos.y / size);
+        int zCount = Mathf.RoundToInt(pos.z / size);
+
+        Vector3 result = new Vector3(
+            (float)xCount * size,
+            (float)yCount * size,
+            (float)zCount * size);
+
+        result += transform.position;
+
+        return result;
     }
-
-    private void Start()
-    {
-
-    }
-
-    private void Update()
-    {
-        
-    }
-
 }
