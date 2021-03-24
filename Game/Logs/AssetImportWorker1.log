@@ -415,3 +415,368 @@ Received Import Request.
 Start importing Assets/Art/Sprites/Grid_Green.png using Guid(2d102b3c4432b454797372b055e6a80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46bff8eeb06ba922830750f0daa7ee8e') in 0.078728 seconds
   Import took 0.081639 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 6965.014476 seconds.
+  path: Assets/Prefabs/Level.prefab
+  artifactKey: Guid(06137d598be9053478078d7fb72b2009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level.prefab using Guid(06137d598be9053478078d7fb72b2009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9f6dfa3103b80ab6ba1f5a0c63d3af') in 0.151675 seconds
+  Import took 0.159143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.217902 seconds.
+  path: Assets/Prefabs/TestLevel.prefab
+  artifactKey: Guid(06137d598be9053478078d7fb72b2009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TestLevel.prefab using Guid(06137d598be9053478078d7fb72b2009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfebf4164fcb23b49fa924c64a7b67d') in 0.055723 seconds
+  Import took 0.064381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.414027 seconds.
+  path: Assets/Prefabs/Level Template.prefab
+  artifactKey: Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Template.prefab using Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5805755fb479e70f405230350796b6') in 0.186535 seconds
+  Import took 0.201907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014391 seconds.
+  path: Assets/Prefabs/Level Template.prefab
+  artifactKey: Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Template.prefab using Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5805755fb479e70f405230350796b6') in 0.156215 seconds
+  Import took 0.169904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.458033 seconds.
+  path: Assets/Prefabs/Level Template.prefab
+  artifactKey: Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Template.prefab using Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300170e5ed9574c87d4346a08cc317b9') in 0.149529 seconds
+  Import took 0.161794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.951556 seconds.
+  path: Assets/Prefabs/Level Template.prefab
+  artifactKey: Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Template.prefab using Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750609a919948029eb188032cb5c8ade') in 0.157988 seconds
+  Import took 0.174929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.490723 seconds.
+  path: Assets/Prefabs/Level Template.prefab
+  artifactKey: Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Template.prefab using Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61305f1ecb70277ce915174d48a7da06') in 0.125690 seconds
+  Import took 0.140411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.093033 seconds.
+  path: Assets/Prefabs/Level Template.prefab
+  artifactKey: Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Template.prefab using Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1e77d25e7377f4214c6744e011de3a') in 0.158392 seconds
+  Import took 0.172743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.838398 seconds.
+  path: Assets/Prefabs/Level Template.prefab
+  artifactKey: Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Template.prefab using Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f309ec80d6803ca24a67976598ac421b') in 0.156237 seconds
+  Import took 0.166012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.196184 seconds.
+  path: Assets/Prefabs/Level Template.prefab
+  artifactKey: Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Template.prefab using Guid(e6bc6bebcacedfd41860ee34f4bdffe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63427317d99b6af044fcb2663f6a7438') in 0.137248 seconds
+  Import took 0.148150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.456591 seconds.
+  path: Assets/Prefabs/New Lighting Settings.lighting
+  artifactKey: Guid(615c298f2081d4140a91e1a38080da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New Lighting Settings.lighting using Guid(615c298f2081d4140a91e1a38080da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f8ebaae1492b01ac59992d063037d6') in 0.033298 seconds
+  Import took 0.038407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 211.428382 seconds.
+  path: Assets/Prefabs/New Lighting Settings.lighting
+  artifactKey: Guid(615c298f2081d4140a91e1a38080da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New Lighting Settings.lighting using Guid(615c298f2081d4140a91e1a38080da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02230eb7d86184bbe2986a1fa463853') in 0.007834 seconds
+  Import took 0.012899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001003 seconds.
+  path: Assets/Prefabs/New Lighting Settings.lighting
+  artifactKey: Guid(615c298f2081d4140a91e1a38080da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New Lighting Settings.lighting using Guid(615c298f2081d4140a91e1a38080da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02230eb7d86184bbe2986a1fa463853') in 0.007243 seconds
+  Import took 0.011907 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001254 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.7 MB.
+System memory in use after: 63.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1637.
+Total: 2.438600 ms (FindLiveObjects: 0.173500 ms CreateObjectMapping: 0.059500 ms MarkObjects: 2.113400 ms  DeleteObjects: 0.090800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.707435 seconds.
+  path: Assets/Art/3D Assets/Materials/UV_Floor_2x2_C.mat
+  artifactKey: Guid(9eb8d9833c001c44eb4dd235037b3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Materials/UV_Floor_2x2_C.mat using Guid(9eb8d9833c001c44eb4dd235037b3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e930370cde9791153aaf53519323f7ed') in 0.172351 seconds
+  Import took 0.176531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.370420 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Floor_2x2_B.jpg
+  artifactKey: Guid(34655f6a05f10b14b98453dd733d474c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Floor_2x2_B.jpg using Guid(34655f6a05f10b14b98453dd733d474c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a56934a1c47bf494a698b6ce15d082') in 0.054362 seconds
+  Import took 0.058275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_Turn_B.jpg
+  artifactKey: Guid(8a468bc0f3a71c34f80c885b491d92ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_Turn_B.jpg using Guid(8a468bc0f3a71c34f80c885b491d92ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8294bc4c4380aa8e26da05773021e283') in 0.030403 seconds
+  Import took 0.034663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Floor_2x2_C.jpg
+  artifactKey: Guid(82f17e2cd4dce6742a16ab4d1f0bc281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Floor_2x2_C.jpg using Guid(82f17e2cd4dce6742a16ab4d1f0bc281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c080536c0e3e53864044ddddc3f26c') in 0.036683 seconds
+  Import took 0.040699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_End_B.jpg
+  artifactKey: Guid(97cec57c769362a49b239d9be584253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_End_B.jpg using Guid(97cec57c769362a49b239d9be584253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ceb12b4729fcb212f3e112f05f83d2f') in 0.031760 seconds
+  Import took 0.035830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_T-Section_C.jpg
+  artifactKey: Guid(76982b6f911535044a45d700ef6a75e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_T-Section_C.jpg using Guid(76982b6f911535044a45d700ef6a75e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff2e326dd36c34d646c65943e342cc4') in 0.029390 seconds
+  Import took 0.034275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_X-Section_B.jpg
+  artifactKey: Guid(2904fc7ebe16dc84aaaad89b9f29874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_X-Section_B.jpg using Guid(2904fc7ebe16dc84aaaad89b9f29874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5370f00fb6ba6d435b92501acfc2d310') in 0.032411 seconds
+  Import took 0.036589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_Straight_B.jpg
+  artifactKey: Guid(102955f8910464443a3a1b68fe57d12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_Straight_B.jpg using Guid(102955f8910464443a3a1b68fe57d12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6a1db0c80731e58be8cbe8b8d8ee4b') in 0.038686 seconds
+  Import took 0.043472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_Straight_C.jpg
+  artifactKey: Guid(d4ddb3e3cf618324f8c3dd7e9a73fd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_Straight_C.jpg using Guid(d4ddb3e3cf618324f8c3dd7e9a73fd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597f6ba16add530b25b32127719417fb') in 0.034075 seconds
+  Import took 0.038623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_Door_C.jpg
+  artifactKey: Guid(cf070cb5bd97a7e4b970d2a46000ec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_Door_C.jpg using Guid(cf070cb5bd97a7e4b970d2a46000ec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7c8c9d07b3dbd9df9e78ca35b415f9') in 0.031540 seconds
+  Import took 0.035188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_Door_Frame_C.jpg
+  artifactKey: Guid(860e25dd825e1ff47bbcca507853c17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_Door_Frame_C.jpg using Guid(860e25dd825e1ff47bbcca507853c17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2271c759cb751c15808bbfadd91e0c') in 0.033828 seconds
+  Import took 0.037568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Object_Sconce_C.jpg
+  artifactKey: Guid(4bd01859736b0a3439dcc507e4f58f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Object_Sconce_C.jpg using Guid(4bd01859736b0a3439dcc507e4f58f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f06bf5386c80ef7a1f06177a5729e9') in 0.037125 seconds
+  Import took 0.040330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_Door_B.jpg
+  artifactKey: Guid(de855a8730891bd49bad373b7f22651f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_Door_B.jpg using Guid(de855a8730891bd49bad373b7f22651f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0365a70848a94cfb07504606ca556fb7') in 0.037185 seconds
+  Import took 0.040574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Object_Sconce_B.jpg
+  artifactKey: Guid(c893731581d53fb4380af00d3e4a42a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Object_Sconce_B.jpg using Guid(c893731581d53fb4380af00d3e4a42a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dbfd2cda01e8905726bcaa02c5e76c') in 0.035529 seconds
+  Import took 0.039161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_End_C.jpg
+  artifactKey: Guid(6fc793112b8fe7c4385fc550e0f4a27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_End_C.jpg using Guid(6fc793112b8fe7c4385fc550e0f4a27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446da47bc1e22d4ee331bea5d49b665c') in 0.032531 seconds
+  Import took 0.036394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_Door_B.jpg
+  artifactKey: Guid(de855a8730891bd49bad373b7f22651f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_Door_B.jpg using Guid(de855a8730891bd49bad373b7f22651f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0365a70848a94cfb07504606ca556fb7') in 0.026546 seconds
+  Import took 0.029671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_Door_Frame_B.jpg
+  artifactKey: Guid(a84cb6b348d291643aefa6a61580b33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_Door_Frame_B.jpg using Guid(a84cb6b348d291643aefa6a61580b33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43edcba507550988713aa8a0a8d168e') in 0.040307 seconds
+  Import took 0.044223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_Turn_C.jpg
+  artifactKey: Guid(f30c8273e5a544d41bb6521434357cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_Turn_C.jpg using Guid(f30c8273e5a544d41bb6521434357cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ff6b066ece76dda1cd950cc225ff6b') in 0.030917 seconds
+  Import took 0.033909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_X-Section_C.jpg
+  artifactKey: Guid(7fa954e6af026a54a882df7c8e0d4c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_X-Section_C.jpg using Guid(7fa954e6af026a54a882df7c8e0d4c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859107b636d23d718e07e3b970ada61d') in 0.027570 seconds
+  Import took 0.030741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Thief Stone/sourceimages/UV_Wall_T-Section_B.jpg
+  artifactKey: Guid(8a8d4fcb29b32d343b2835e31c1036a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/sourceimages/UV_Wall_T-Section_B.jpg using Guid(8a8d4fcb29b32d343b2835e31c1036a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ae0390f0eb732b409f53cd33376960') in 0.027877 seconds
+  Import took 0.030736 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001738 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.447 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.0 MB.
+System memory in use after: 64.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1642.
+Total: 2.836500 ms (FindLiveObjects: 0.275700 ms CreateObjectMapping: 0.085000 ms MarkObjects: 2.370100 ms  DeleteObjects: 0.103900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.744 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.3 MB.
+System memory in use after: 64.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1644.
+Total: 2.768600 ms (FindLiveObjects: 0.282800 ms CreateObjectMapping: 0.203700 ms MarkObjects: 2.183500 ms  DeleteObjects: 0.096800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 466.930638 seconds.
+  path: Assets/Scripts/Grid/TempPointClick.cs
+  artifactKey: Guid(a5e144ce289edcf4398bb9827d4b225a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Grid/TempPointClick.cs using Guid(a5e144ce289edcf4398bb9827d4b225a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e0845a622634814c49833054db1b85') in 0.027500 seconds
+  Import took 0.031569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035142 seconds.
+  path: Assets/Scripts/Grid/TempPointClick.cs
+  artifactKey: Guid(a5e144ce289edcf4398bb9827d4b225a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Grid/TempPointClick.cs using Guid(a5e144ce289edcf4398bb9827d4b225a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e0845a622634814c49833054db1b85') in 0.006422 seconds
+  Import took 0.010311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 272.405269 seconds.
+  path: Assets/Thief Stone/scenes/Wall Environment Test 1.mb
+  artifactKey: Guid(a2c069ea1fddf3a4b8e5dbed0a9c6636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/scenes/Wall Environment Test 1.mb using Guid(a2c069ea1fddf3a4b8e5dbed0a9c6636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82648ff13ec9434ff7fbb354e638d21f') in 0.030290 seconds
+  Import took 0.034648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000973 seconds.
+  path: Assets/Thief Stone/scenes/Wall Environment Test 1.mb
+  artifactKey: Guid(a2c069ea1fddf3a4b8e5dbed0a9c6636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thief Stone/scenes/Wall Environment Test 1.mb using Guid(a2c069ea1fddf3a4b8e5dbed0a9c6636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82648ff13ec9434ff7fbb354e638d21f') in 0.007856 seconds
+  Import took 0.012786 seconds .
+
