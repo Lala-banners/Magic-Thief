@@ -22,15 +22,6 @@ public class Grid : MonoBehaviour
 
     [SerializeField] private float size = 1f;
 
-    public Tile[,] tiles;
-
-    #region For loop method
-    public void CreateGrid()
-    {
-
-    }
-    #endregion
-
     /// <summary>
     /// Getting the number of points on the grid.
     /// </summary>
