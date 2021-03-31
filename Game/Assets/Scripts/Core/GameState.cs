@@ -16,4 +16,5 @@ public abstract class GameState
     public virtual void PlayerAction() { }
     public virtual void EnemyMove() { }
     public virtual void EnemyAction() { }
+    public virtual void EndTurn() { }
 }

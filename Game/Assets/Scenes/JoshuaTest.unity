@@ -440,10 +440,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridTile: {fileID: 3858057509376348013, guid: 12c51e05fad2a25448950fab146239e0, type: 3}
-  playerPositionx: 0
-  playerPositionY: 0
+  materials:
+  - {fileID: 2100000, guid: ade2de67f2d4a5641acdb71a7dd7679e, type: 2}
+  - {fileID: 2100000, guid: de1a8a2d438e6f34388985202c95f04d, type: 2}
+  playerPos: {x: 0, y: 0}
+  playerPositions:
+  - {x: 0, y: 0}
   maxLength: 10
   maxHeight: 10
+  tileSize: 1
 --- !u!4 &1837042054
 Transform:
   m_ObjectHideFlags: 0
@@ -562,7 +567,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862803225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07e8dd45380115a4c8b16fd78e78702d, type: 3}
   m_Name: 

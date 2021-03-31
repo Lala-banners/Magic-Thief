@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerTurn : GameState
 {
+    private bool hasMoved = false;
+    private bool hasActed = false;
+
     public PlayerTurn(GameManager machine) : base(machine)
     {
     }
@@ -15,11 +18,24 @@ public class PlayerTurn : GameState
 
     public override void PlayerMove()
     {
-        base.PlayerMove();
+        if (!hasMoved)
+        {
+            //Insert movement here
+            hasMoved = true;
+        }
     }
 
     public override void PlayerAction()
     {
-        base.PlayerAction();
+        if (!hasActed)
+        {
+            //Insert action here
+            hasActed = true;
+        }
+    }
+
+    public override void EndTurn()
+    {
+        system.SetState(new EnemyTurn(system));
     }
 }

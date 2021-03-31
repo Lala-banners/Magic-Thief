@@ -22,4 +22,9 @@ public class EnemyTurn : GameState
     {
         base.EnemyAction();
     }
+
+    public override void EndTurn()
+    {
+        system.SetState(new PlayerTurn(system));
+    }
 }
