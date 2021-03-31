@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Tile
   - Connector
+  - Hallway
+  - Long
+  - Short
   layers:
   - Default
   - TransparentFX

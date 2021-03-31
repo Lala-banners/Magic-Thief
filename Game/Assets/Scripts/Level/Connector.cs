@@ -13,6 +13,6 @@ public class Connector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //Change object being spawned rotation to the direction the doorway is facing
     }
 }

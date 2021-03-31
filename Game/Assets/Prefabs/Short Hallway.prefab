@@ -125,8 +125,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8677017621572424024}
   m_Layer: 7
-  m_Name: Hallway BT
-  m_TagString: Untagged
+  m_Name: Short Hallway
+  m_TagString: Short
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
