@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyTurn : State
+public class EnemyTurn : GameState
 {
     public EnemyTurn(GameManager machine) : base(machine)
     {

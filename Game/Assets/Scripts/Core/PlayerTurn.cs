@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerTurn : State
+public class PlayerTurn : GameState
 {
     public PlayerTurn(GameManager machine) : base(machine)
     {

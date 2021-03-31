@@ -7,7 +7,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField]
     private Transform player;
     [SerializeField]
-    private float distanceFromPlayer = 1.0f;
+    private float distanceFromPlayer = 8.0f;
 
     // Update is called once per frame
     void Update()

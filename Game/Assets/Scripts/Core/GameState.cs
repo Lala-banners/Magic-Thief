@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class State
+public abstract class GameState
 {
     protected GameManager system;
 
-    public State(GameManager machine)
+    public GameState(GameManager machine)
     {
         system = machine;
     }
