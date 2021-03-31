@@ -66,6 +66,7 @@ Transform:
   - {fileID: 376404945795976435}
   - {fileID: 1888321939821404216}
   - {fileID: 7681307690613072220}
+  - {fileID: 5931483213398586758}
   m_Father: {fileID: 5524541500651862618}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2500,6 +2501,84 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0d235098a4cd6834a9e15a38084ca4a0, type: 3}
   m_PrefabInstance: {fileID: 5763054144713472351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6186369132958437997
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8782188250992660511}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 66.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.48
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0000006357829
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_Name
+      value: Door (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+--- !u!4 &5931483213398586758 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 61b46349fa150e34e8bf3c26d19f8f6c, type: 3}
+  m_PrefabInstance: {fileID: 6186369132958437997}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6270744160470520343
 PrefabInstance:
