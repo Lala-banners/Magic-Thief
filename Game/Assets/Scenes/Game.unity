@@ -159,7 +159,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!23 &114641298
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -346,7 +345,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!1 &268666823
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,7 +488,6 @@ MonoBehaviour:
   room:
   - {fileID: 8677017621572424025, guid: 022a1dc10dc018c4cb4f767a5d0e436f, type: 3}
   - {fileID: 8306663720475628465, guid: b859af58c5f70864ca0e23a15e464104, type: 3}
-  hallways: []
 --- !u!23 &306304224
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -588,7 +585,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!23 &386649514
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -775,7 +771,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!1 &485739362
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +880,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   room:
   - {fileID: 8677017621572424025, guid: 022a1dc10dc018c4cb4f767a5d0e436f, type: 3}
-  hallways: []
 --- !u!1 &525663210
 GameObject:
   m_ObjectHideFlags: 0
@@ -997,7 +991,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!1 &572713960
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,7 +1006,7 @@ GameObject:
   - component: {fileID: 572713965}
   m_Layer: 0
   m_Name: Short
-  m_TagString: Untagged
+  m_TagString: Short
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1032,7 +1025,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   room:
   - {fileID: 8677017621572424025, guid: 022a1dc10dc018c4cb4f767a5d0e436f, type: 3}
-  hallways: []
 --- !u!23 &572713962
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1142,7 +1134,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   room:
   - {fileID: 8306663720475628465, guid: b859af58c5f70864ca0e23a15e464104, type: 3}
-  hallways: []
 --- !u!23 &704759853
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1581,7 +1572,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!1 &762222759
 GameObject:
   m_ObjectHideFlags: 0
@@ -1787,7 +1777,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!1 &800343193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,7 +1811,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   room:
   - {fileID: 8677017621572424025, guid: 022a1dc10dc018c4cb4f767a5d0e436f, type: 3}
-  hallways: []
 --- !u!23 &800343195
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1842,7 +1830,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d5c840c1e4bd6ff4288bfca16b120c29, type: 2}
+  - {fileID: 2100000, guid: 7aff2f56c785c5248b1e111be05a4a01, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1934,7 +1922,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!114 &867656624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2256,7 +2243,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!23 &1002706058
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2443,7 +2429,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!1 &1208785087
 GameObject:
   m_ObjectHideFlags: 0
@@ -2555,7 +2540,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!1 &1214680899
 GameObject:
   m_ObjectHideFlags: 0
@@ -2759,7 +2743,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   room:
   - {fileID: 8306663720475628465, guid: b859af58c5f70864ca0e23a15e464104, type: 3}
-  hallways: []
 --- !u!1 &1356485589
 GameObject:
   m_ObjectHideFlags: 0
@@ -2871,7 +2854,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!1001 &1444592521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3064,7 +3046,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!1 &1461497384
 GameObject:
   m_ObjectHideFlags: 0
@@ -3362,7 +3343,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   room:
   - {fileID: 8677017621572424025, guid: 022a1dc10dc018c4cb4f767a5d0e436f, type: 3}
-  hallways: []
 --- !u!1 &1621118779
 GameObject:
   m_ObjectHideFlags: 0
@@ -3474,7 +3454,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!1 &1623641766
 GameObject:
   m_ObjectHideFlags: 0
@@ -3584,7 +3563,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   room:
   - {fileID: 8677017621572424025, guid: 022a1dc10dc018c4cb4f767a5d0e436f, type: 3}
-  hallways: []
 --- !u!1 &1748099960
 GameObject:
   m_ObjectHideFlags: 0
@@ -3882,7 +3860,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   room:
   - {fileID: 8306663720475628465, guid: b859af58c5f70864ca0e23a15e464104, type: 3}
-  hallways: []
 --- !u!1 &1875507727
 GameObject:
   m_ObjectHideFlags: 0
@@ -4107,7 +4084,6 @@ MonoBehaviour:
   - {fileID: 7758870190830753672, guid: 97f2acd5f0f9e9d49b1c6f4c8d32a363, type: 3}
   - {fileID: 551350405548984803, guid: a429a062b464375429f8e9fedc4a80c4, type: 3}
   - {fileID: 404967722166484939, guid: 14c060308b0a3764588c2242d6909d31, type: 3}
-  hallways: []
 --- !u!23 &2043490824
 MeshRenderer:
   m_ObjectHideFlags: 0
