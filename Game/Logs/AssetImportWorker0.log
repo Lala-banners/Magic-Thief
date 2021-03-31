@@ -1546,3 +1546,883 @@ System memory in use after: 130.0 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3282.
 Total: 2.991100 ms (FindLiveObjects: 0.346100 ms CreateObjectMapping: 0.203700 ms MarkObjects: 2.373300 ms  DeleteObjects: 0.066900 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2330 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3284.
+Total: 3.370600 ms (FindLiveObjects: 0.439300 ms CreateObjectMapping: 0.134100 ms MarkObjects: 2.732800 ms  DeleteObjects: 0.063200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2330 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3286.
+Total: 2.864800 ms (FindLiveObjects: 0.286100 ms CreateObjectMapping: 0.117300 ms MarkObjects: 2.392900 ms  DeleteObjects: 0.067300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1556.276462 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e655304433f4701b8481dbdf357d8fc') in 0.203640 seconds
+  Import took 0.210472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178591 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637ac82e80ef546467c9eab9537a58af') in 0.048895 seconds
+  Import took 0.055349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.083432 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8191d84b8cd56cfb6f1968a9f84bf63') in 0.006558 seconds
+  Import took 0.011007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.354989 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e6e0a0dde05b9a7f0e5669e44a4317') in 0.041572 seconds
+  Import took 0.048023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.246629 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc659987e5056785b620d7439082211') in 0.046040 seconds
+  Import took 0.055044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.592695 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1873cfb942bd092e9f8d581f7999e27') in 0.043621 seconds
+  Import took 0.050135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.625211 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec280583476d03c19382eeeb5c2f7d0') in 0.042734 seconds
+  Import took 0.049208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.426512 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33654f75a36ebd20bcba16c992514ccd') in 0.046480 seconds
+  Import took 0.053153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.579749 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca69fae42fcc7f3775b88c90f854800') in 0.050241 seconds
+  Import took 0.056915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.164865 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9757c55c4ccc8cda47720ad7396be3c') in 0.047993 seconds
+  Import took 0.054722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.402707 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a7a5d5a0c377955c291983f06c5f7c') in 0.049489 seconds
+  Import took 0.056332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.791191 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319cfcfc37bf77aa144a3189395dc0d1') in 0.049606 seconds
+  Import took 0.058955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.605770 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f89b678338c09e0e3ca55bb22fea7c0') in 0.050513 seconds
+  Import took 0.057822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.184523 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8d0024d1867b859c393252f78ae4b5') in 0.049296 seconds
+  Import took 0.057478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.385097 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb344d3f00f364dc5d350ba7a0e4d48') in 0.050002 seconds
+  Import took 0.057288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.349890 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b360326fddec7ec863a95c1f95bcc8d') in 0.050567 seconds
+  Import took 0.058016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.362800 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618c4362b5422495ea98be127119c47a') in 0.052377 seconds
+  Import took 0.060227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.990900 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa34410622391117fcfe579eb3ac637') in 0.053158 seconds
+  Import took 0.060176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.959434 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd83859eedff32430e83465b9eb8db7') in 0.053034 seconds
+  Import took 0.060856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.436915 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f18089eba2f6a8f0fe42bb91e8d107') in 0.052882 seconds
+  Import took 0.060346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.975915 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb44d8cdf35b2dbb1ae53472e3032c33') in 0.054625 seconds
+  Import took 0.062344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.475064 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f40ea6c04bfd3fae414b3c296a9577c') in 0.058080 seconds
+  Import took 0.065396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.379603 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd23290a32cfe00a99baf57c6ad2c463') in 0.064515 seconds
+  Import took 0.072908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.770756 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4de140ccb9af7735c4a2e6a961b2bd8') in 0.066665 seconds
+  Import took 0.074485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.015522 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7852da7e18874782992e332b9aeeb8') in 0.063767 seconds
+  Import took 0.072207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.207872 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e3c9f458650cb1a81ea0cb53330697') in 0.056902 seconds
+  Import took 0.064691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.792097 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb39cf26876b43be7a69aba714399ec5') in 0.063330 seconds
+  Import took 0.070896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.596166 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be5d77c9dfb3161c9d21a9d73456aef') in 0.060582 seconds
+  Import took 0.069601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.168857 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1017de0618be6cbb1d4156013b3a94ad') in 0.066732 seconds
+  Import took 0.077588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.562516 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1e6c7e5751f66e41556dd19b0399e1') in 0.059641 seconds
+  Import took 0.067668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.581541 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bdeda7dc57fb3ac6e44cf2aa5e94ae') in 0.069400 seconds
+  Import took 0.079415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.989445 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8babac357e4d44390cedf8ed2d9c88c1') in 0.064346 seconds
+  Import took 0.072272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.921804 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e881e8d112476bff674a1f19c1eeaf1') in 0.059309 seconds
+  Import took 0.067190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.231179 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75013eec75fb7acf48131c7bb5b69595') in 0.059075 seconds
+  Import took 0.067927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.953259 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1501e5abe9f57e02403ad525c26e9db9') in 0.049472 seconds
+  Import took 0.055944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd337118e618a4bdb3b9eeca40f034014') in 0.066172 seconds
+  Import took 0.078450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1501e5abe9f57e02403ad525c26e9db9') in 0.044453 seconds
+  Import took 0.050920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.818900 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caeccc3b28f8d5c7ecd92ec692548ebd') in 0.060353 seconds
+  Import took 0.068459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.601365 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace09be4e7beb861cb25545ba0ed2c2e') in 0.071576 seconds
+  Import took 0.079901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.928461 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0296a558219b6151e52c4fd347251a92') in 0.070602 seconds
+  Import took 0.078811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.970445 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bb0787cf3c3494f3d8b8979eb55dd0') in 0.068232 seconds
+  Import took 0.076316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.152025 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03654d7ca3740e2c397751275c80ec9d') in 0.063860 seconds
+  Import took 0.071707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.381041 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f16274f91b810f64c0e6cbd66275233') in 0.065426 seconds
+  Import took 0.073936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.939287 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4460661c2d8ab4377ff290e5c5b8c7') in 0.041961 seconds
+  Import took 0.048025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb95adfd06a5b958598fe391b7fd21e') in 0.059930 seconds
+  Import took 0.067471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.491369 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414835ca6557887e87aaebde678300cb') in 0.062455 seconds
+  Import took 0.070506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.905215 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec813cc72810812a67598fb80140ed9c') in 0.043833 seconds
+  Import took 0.050018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8889dfb2c1f58fc3d0407d652726c9f8') in 0.062092 seconds
+  Import took 0.070418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.084652 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b9804cb642bf5b57d72c9d00750b8c') in 0.044147 seconds
+  Import took 0.050327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950f12c1d20c186d144b7a473b36c81a') in 0.060149 seconds
+  Import took 0.068400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.458358 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796fd227fe191799b4cbf9ecf9e967fa') in 0.041763 seconds
+  Import took 0.048170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd7cf59c0f0c40cc344be448ef20534') in 0.059926 seconds
+  Import took 0.068275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.915781 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de740b7a0186df7b37ff050c0eae18fa') in 0.041868 seconds
+  Import took 0.049961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be647492eee0a6a5b3cccfca358f91a') in 0.060059 seconds
+  Import took 0.067598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.618891 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb32c339e37dd3238377d323b545013') in 0.041453 seconds
+  Import took 0.047676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8a77d27dec00487f77f4096507a01f') in 0.059029 seconds
+  Import took 0.067516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.831716 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1063569787b4933239ac4b905d27ba') in 0.046809 seconds
+  Import took 0.053048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba06aa9022461f2048d73ab74f2e7baf') in 0.061418 seconds
+  Import took 0.069480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.931070 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b2d5d84b07acace7017a63444dee2e') in 0.043844 seconds
+  Import took 0.052385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dcd2c5e37ae1a6884174dd7048839a') in 0.068492 seconds
+  Import took 0.076362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.878426 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caa1c427c288ec3e74cde9e0702e9fa') in 0.041258 seconds
+  Import took 0.047283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ebd3ff7ab71c4334ede3d814320b6d') in 0.068640 seconds
+  Import took 0.076228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.143590 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b7538f6e6009244aad9cd344760400') in 0.040325 seconds
+  Import took 0.046445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce1f01445e49160177bc5e91d9258de') in 0.065930 seconds
+  Import took 0.073526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.100370 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d3e9305e73d1a894d4f69d2fbabed2') in 0.047276 seconds
+  Import took 0.053586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88964fe3cb152b73b4d2726ef4bf02a8') in 0.060853 seconds
+  Import took 0.068430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.105272 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec9252c984d454f274567f2571ccee2') in 0.045420 seconds
+  Import took 0.052137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1596ccd0f35a8f18c3cef47cd429703') in 0.065705 seconds
+  Import took 0.076070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.499337 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc3678861157266aa114ff351c1760b') in 0.044089 seconds
+  Import took 0.050063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e005acf574e05b3d13bd0def2037b112') in 0.063241 seconds
+  Import took 0.070976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.310430 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2866ad2cfa17696947ff145034819aa8') in 0.046575 seconds
+  Import took 0.053299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6cf9be70c9901a1798b426298bf3ab') in 0.063775 seconds
+  Import took 0.071278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.095468 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4000d65a4755f413a7834bbf8050c957') in 0.042076 seconds
+  Import took 0.048729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e46e4b7643fa1d9c30445f064a7dd3') in 0.059519 seconds
+  Import took 0.067596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.698788 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44c74bcb65617bb5cd686da0ccf8390') in 0.044977 seconds
+  Import took 0.051349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba41f17b0e25382faa5cb2875599745') in 0.064073 seconds
+  Import took 0.072018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.285093 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019f78d8c574656e667f65da67997d7f') in 0.043375 seconds
+  Import took 0.049354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c1062773f44d41d6dd0e2f9692194e') in 0.061338 seconds
+  Import took 0.068906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.109181 seconds.
+  path: Assets/Prefabs/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e06e408576f646a24c79f95aba44e6a') in 0.041416 seconds
+  Import took 0.047369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a70fec5518316f824e8990c347cf4c') in 0.070465 seconds
+  Import took 0.079855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.077096 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df818e2b6a468a447f54169def0e2b4b') in 0.061018 seconds
+  Import took 0.069408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.982465 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7717dda9f061c415c2e547d6cc7ff21f') in 0.062406 seconds
+  Import took 0.070533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.907309 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6282c16515e7f008d94e96b682990c') in 0.057389 seconds
+  Import took 0.066101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.813144 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c3b3a41addc30c1ba905fea275c005') in 0.066037 seconds
+  Import took 0.076188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.150033 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d03ccc67022cd646b0dd58c32c1bad') in 0.069409 seconds
+  Import took 0.078145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.755261 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56c229206c7da19d915948905cff2d4') in 0.065119 seconds
+  Import took 0.072965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.213244 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e314c9a0feb2f84303220bc4a8451312') in 0.071863 seconds
+  Import took 0.080794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.530504 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c4a449de4fe19e448b845972733795') in 0.069442 seconds
+  Import took 0.077490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.762072 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95036956b319969f0a32ae39764adb3') in 0.069729 seconds
+  Import took 0.077945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.698581 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac64d673521cbeb822572213b5e7bae') in 0.064711 seconds
+  Import took 0.074686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.159278 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cc93de511adbedbb8cc1d4247bda88') in 0.069136 seconds
+  Import took 0.077502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.533632 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f27294f599ef2382ffa0fea9f73a20') in 0.070955 seconds
+  Import took 0.079392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.388677 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776a9d6d532ecdfcfabf6a15df7ecbf8') in 0.075839 seconds
+  Import took 0.084685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.519864 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cba09c48b0b1e96fbcb94d4feb8bc51') in 0.067692 seconds
+  Import took 0.075891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.033772 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b711f7288462bc0f5c7c08b5e6bfa0') in 0.069512 seconds
+  Import took 0.077756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.321891 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d69779acd0b16ae17f22f27601a3f77') in 0.069655 seconds
+  Import took 0.077842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.931965 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2def238095c61a3a8ab111184246891a') in 0.070312 seconds
+  Import took 0.079038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.724712 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b65e889b447b33dec21fd8d15a8a6bd') in 0.068403 seconds
+  Import took 0.077632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.273336 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3d6cc97c0b387d686c3ba5e70957dc') in 0.073147 seconds
+  Import took 0.081405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.349692 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460b68f5345411504bf8b68e903a6dce') in 0.069369 seconds
+  Import took 0.077994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.121752 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfde9c02dbed556f58c7288e7ff96458') in 0.069425 seconds
+  Import took 0.077941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.951195 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25341d9cf30284db91804e334c76221e') in 0.066036 seconds
+  Import took 0.074208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.177331 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffdcba9e08a7958edaa220d3cd43961') in 0.069071 seconds
+  Import took 0.077371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.336692 seconds.
+  path: Assets/Prefabs/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6cea039284cb1c148a5d76fce90893') in 0.062668 seconds
+  Import took 0.071727 seconds .
+
