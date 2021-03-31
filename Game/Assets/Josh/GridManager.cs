@@ -8,6 +8,11 @@ public class GridManager : MonoBehaviour
     private GameObject gridTile;
     private TileBehaviour[,] grid;
 
+    //Algorithm parameters
+    private List<TileBehaviour> openList;
+    private List<TileBehaviour> closedList;
+    //End of algorithm parameters
+
     [SerializeField]
     private List<Material> materials;
 
@@ -58,7 +63,10 @@ public class GridManager : MonoBehaviour
 
     public void FindPath(Vector2Int destination)
     {
+        TileBehaviour startNode = grid[playerPos.x, playerPos.y];
 
+        openList = new List<TileBehaviour>();
+        closedList = new List<TileBehaviour>();
     }
 
     // Update is called once per frame
