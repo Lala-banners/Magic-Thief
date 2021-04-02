@@ -7,13 +7,13 @@ public class TileBehaviour : MonoBehaviour
     private MeshRenderer mesh;
     private GridManager manager;
     private bool selected = false;
-    private Vector2Int coords;
+    public Vector2Int Coords { get; private set; }
 
     //Parameters for the pathfinding algorithm
-    public int gCost;
-    public int hCost;
-    public int fCost;
-
+    public float gCost;
+    public float hCost;
+    public float fCost;
+    public bool isWalkable;
     public TileBehaviour cameFromNode;
 
     // Start is called before the first frame update
@@ -22,18 +22,35 @@ public class TileBehaviour : MonoBehaviour
         mesh = GetComponent<MeshRenderer>();
         manager = GetComponentInParent<GridManager>();
         GetComponent<MeshRenderer>().enabled = false;
+        isWalkable = true;
     }
 
     public void SetCoords(int x, int y)
     {
-        coords = new Vector2Int(x, y);
+        Coords = new Vector2Int(x, y);
+    }
+
+    public void CalculateFCost()
+    {
+        fCost = gCost + hCost;
     }
 
     private void OnMouseDown()
     {
         selected = !selected;
-        mesh.enabled = true;
+        //mesh.enabled = true;
         mesh.material = manager.GetMaterial(selected ? 1 : 0);
+
+        List<TileBehaviour> path = manager.FindPath(manager.PlayerPosition, Coords);
+        foreach(TileBehaviour tile in path)
+        {
+            tile.Test();
+        }
+    }
+
+    public void Test()
+    {
+        mesh.enabled = true;
     }
 
     /// <summary>
@@ -41,8 +58,8 @@ public class TileBehaviour : MonoBehaviour
     /// </summary>
     private void OnMouseEnter()
     {
-        manager.FindPath(coords);
-        mesh.enabled = true;
+        //List<TileBehaviour> path = manager.FindPath(manager.PlayerPosition, Coords);
+        //mesh.enabled = true;
     }
 
     /// <summary>
@@ -50,6 +67,6 @@ public class TileBehaviour : MonoBehaviour
     /// </summary>
     private void OnMouseExit()
     {
-        mesh.enabled = selected;
+        //mesh.enabled = selected;
     }
 }
