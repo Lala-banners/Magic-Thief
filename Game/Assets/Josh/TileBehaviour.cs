@@ -37,20 +37,25 @@ public class TileBehaviour : MonoBehaviour
 
     private void OnMouseDown()
     {
-        selected = !selected;
+        //selected = !selected;
         //mesh.enabled = true;
-        mesh.material = manager.GetMaterial(selected ? 1 : 0);
+        //mesh.material = manager.GetMaterial(selected ? 1 : 0);
 
         List<TileBehaviour> path = manager.FindPath(manager.PlayerPosition, Coords);
         foreach(TileBehaviour tile in path)
         {
-            tile.Test();
+            tile.Test(true);
         }
     }
 
-    public void Test()
+    /// <summary>
+    /// Enables or disables mesh renderer.
+    /// Testing code, mainly
+    /// </summary>
+    /// <param name="isMeshEnabled"></param>
+    public void Test(bool isMeshEnabled)
     {
-        mesh.enabled = true;
+        mesh.enabled = isMeshEnabled;
     }
 
     /// <summary>

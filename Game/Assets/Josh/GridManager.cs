@@ -57,6 +57,9 @@ public class GridManager : MonoBehaviour
         */
     }
 
+    /// <summary>
+    /// Probably temporary
+    /// </summary>
     public Material GetMaterial(int mat)
     {
         return materials[mat];
@@ -70,6 +73,13 @@ public class GridManager : MonoBehaviour
     /// <returns>A list of tiles from start to end</returns>
     public List<TileBehaviour> FindPath(Vector2Int start, Vector2Int destination)
     {
+        //This part is probably temporary/test stuff
+        foreach(TileBehaviour tile in grid)
+        {
+            tile.Test(false);
+        }
+        //End of temp part
+
         TileBehaviour startNode = grid[start.x, start.y];
         TileBehaviour endNode = grid[destination.x, destination.y];
 
@@ -132,6 +142,10 @@ public class GridManager : MonoBehaviour
         return null;
     }
 
+    /// <summary>
+    /// Gets list of tiles surrounding another tile
+    /// </summary>
+    /// <param name="pathCoords">the coordinates of the original tile</param>
     private List<TileBehaviour> GetNeighbourList(Vector2Int pathCoords)
     {
         List<TileBehaviour> neighbourList = new List<TileBehaviour>();
@@ -152,6 +166,10 @@ public class GridManager : MonoBehaviour
         return neighbourList;
     }
 
+    /// <summary>
+    /// Returns the tile path by working backwards
+    /// </summary>
+    /// <param name="endNode">The last node in the line</param>
     private List<TileBehaviour> CalculatePath(TileBehaviour endNode)
     {
         List<TileBehaviour> path = new List<TileBehaviour>
@@ -169,11 +187,17 @@ public class GridManager : MonoBehaviour
         return path;
     }
 
+    /// <summary>
+    /// Returns the distance between to tiles
+    /// </summary>
     private float CalculateDistance(TileBehaviour a, TileBehaviour b)
     {
         return Vector2Int.Distance(a.Coords, b.Coords);
     }
 
+    /// <summary>
+    /// Gets the tile with the lowest fCost from a list
+    /// </summary>
     private TileBehaviour GetLowestFCostNode(List<TileBehaviour> pathNodeList)
     {
         TileBehaviour lowestFCostNode = pathNodeList[0];
@@ -185,11 +209,5 @@ public class GridManager : MonoBehaviour
             }
         }
         return lowestFCostNode;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
