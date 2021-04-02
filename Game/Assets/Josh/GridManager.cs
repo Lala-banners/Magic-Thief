@@ -48,11 +48,13 @@ public class GridManager : MonoBehaviour
     /// <param name="tile">The tile being activated/deactivated</param>
     private void SetTileWalkable(TileBehaviour tile)
     {
+        /*
         if(!Physics.Raycast(tile.transform.position, Vector3.up, 1.0f, LayerMask.GetMask("Room")))
         {
             tile.isWalkable = false;
             tile.gameObject.GetComponent<BoxCollider>().enabled = false;
         }
+        */
     }
 
     public Material GetMaterial(int mat)

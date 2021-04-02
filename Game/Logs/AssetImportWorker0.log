@@ -3497,3 +3497,11 @@ System memory in use after: 78.0 MB.
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1900.
 Total: 2.521200 ms (FindLiveObjects: 0.245800 ms CreateObjectMapping: 0.033000 ms MarkObjects: 2.226600 ms  DeleteObjects: 0.012900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 195146.031676 seconds.
+  path: Assets/Josh/Tile.prefab
+  artifactKey: Guid(12c51e05fad2a25448950fab146239e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Josh/Tile.prefab using Guid(12c51e05fad2a25448950fab146239e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c5f85d3b2dfb2aae0ff110cfb97c5f') in 0.048237 seconds
+  Import took 0.051649 seconds .
+
