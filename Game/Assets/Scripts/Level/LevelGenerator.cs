@@ -3,16 +3,16 @@ using UnityEngine;
 
 public class LevelGenerator : MonoBehaviour
 {
-    public List<GameObject> room = new List<GameObject>(); //List of spawnable room layouts
-    private Quaternion prefabRot = Quaternion.Euler(0, 90, 0); //Rotated 90 degrees on y axis
-    private Connector connector;
+    //public List<GameObject> layout = new List<GameObject>(); //List of spawnable room layouts
+    public GameObject level;
 
     private void Start()
     {
-        connector = GetComponent<Connector>();
+        GenerateMap();
     }
 
-    private void Update()
+    //Testing!
+    /*private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -21,19 +21,14 @@ public class LevelGenerator : MonoBehaviour
 
             GenerateMap();
         }
-    }
+    }*/
 
     public void GenerateMap()
     {
-        if(connector.gameObject.CompareTag("Short"))
-        {
-            GameObject hallway = room[0];
-            Instantiate(hallway, transform.position, prefabRot);
-            Destroy(gameObject);
-        }
+        //GameObject go = layout[Random.Range(0, layout.Count)];
 
-        GameObject go = room[Random.Range(0, room.Count)];
-        Instantiate(go, transform.position, transform.rotation);
+        //To spawn level layout
+        Instantiate(level, transform.position, transform.rotation);
         Destroy(gameObject);
     }
 }
