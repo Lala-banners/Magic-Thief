@@ -3618,3 +3618,4 @@ Received Import Request.
 Start importing Assets/Art/Levels/Game Levels/Level 1.prefab using Guid(257d775b4f7b1354580e462bdc375caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a494b15331264b141a66263d6377c6e0') in 0.110659 seconds
   Import took 0.120143 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
