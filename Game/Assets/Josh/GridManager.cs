@@ -4,18 +4,32 @@ using UnityEngine;
 
 public class GridManager : MonoBehaviour
 {
+
+    #region Instance
+    public static GridManager Instance = null;
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else if (Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+    }
+    #endregion
+
+
     [SerializeField]
     private GameObject gridTile;
     private TileBehaviour[,] grid;
-    public Vector2Int PlayerPosition { get; private set; }
 
     //Algorithm parameters
     private List<TileBehaviour> openList;
     private List<TileBehaviour> closedList;
     //End of algorithm parameters
-
-    [SerializeField]
-    private List<Material> materials;
 
     [SerializeField]
     private int maxLength = 10;
@@ -39,7 +53,6 @@ public class GridManager : MonoBehaviour
                 SetTileWalkable(grid[i, j]);
             }
         }
-        PlayerPosition = new Vector2Int(0, 0);
     }
 
     /// <summary>
@@ -55,14 +68,6 @@ public class GridManager : MonoBehaviour
             tile.gameObject.GetComponent<BoxCollider>().enabled = false;
         }
         */
-    }
-
-    /// <summary>
-    /// Probably temporary
-    /// </summary>
-    public Material GetMaterial(int mat)
-    {
-        return materials[mat];
     }
 
     /// <summary>

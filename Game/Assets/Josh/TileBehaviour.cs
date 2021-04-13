@@ -6,7 +6,6 @@ public class TileBehaviour : MonoBehaviour
 {
     private MeshRenderer mesh;
     private GridManager manager;
-    private bool selected = false;
     public Vector2Int Coords { get; private set; }
 
     //Parameters for the pathfinding algorithm
@@ -37,15 +36,12 @@ public class TileBehaviour : MonoBehaviour
 
     private void OnMouseDown()
     {
-        //selected = !selected;
-        //mesh.enabled = true;
-        //mesh.material = manager.GetMaterial(selected ? 1 : 0);
-
-        List<TileBehaviour> path = manager.FindPath(manager.PlayerPosition, Coords);
-        foreach(TileBehaviour tile in path)
-        {
-            tile.Test(true);
-        }
+        //List<TileBehaviour> path = manager.FindPath(manager.PlayerPosition, Coords);
+        //foreach(TileBehaviour tile in path)
+        //{
+        //  tile.Test(true);
+        //}
+        GameManager.Instance.PlayerMove(Coords);
     }
 
     /// <summary>
@@ -56,22 +52,5 @@ public class TileBehaviour : MonoBehaviour
     public void Test(bool isMeshEnabled)
     {
         mesh.enabled = isMeshEnabled;
-    }
-
-    /// <summary>
-    /// Highlight the tile by enabling its mesh renderer
-    /// </summary>
-    private void OnMouseEnter()
-    {
-        //List<TileBehaviour> path = manager.FindPath(manager.PlayerPosition, Coords);
-        //mesh.enabled = true;
-    }
-
-    /// <summary>
-    /// Stop highlighting the tile
-    /// </summary>
-    private void OnMouseExit()
-    {
-        //mesh.enabled = selected;
     }
 }

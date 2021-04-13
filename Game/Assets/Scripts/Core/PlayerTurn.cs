@@ -6,6 +6,7 @@ public class PlayerTurn : GameState
 {
     private bool hasMoved = false;
     private bool hasActed = false;
+    private bool turnPassed = false;
 
     public PlayerTurn(GameManager machine) : base(machine)
     {
@@ -16,11 +17,11 @@ public class PlayerTurn : GameState
         base.OnEnter();
     }
 
-    public override void PlayerMove()
+    public override void PlayerMove(Vector2Int target)
     {
         if (!hasMoved)
         {
-            //Insert movement here
+            GameManager.Instance.Player.MoveToSpace(target);
             hasMoved = true;
         }
     }
@@ -32,6 +33,11 @@ public class PlayerTurn : GameState
             //Insert action here
             hasActed = true;
         }
+    }
+
+    public override bool IsTurnOver()
+    {
+        return (hasActed && hasMoved) || turnPassed;
     }
 
     public override void EndTurn()

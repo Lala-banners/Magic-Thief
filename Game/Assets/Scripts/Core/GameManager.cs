@@ -20,15 +20,23 @@ public class GameManager : StateMachine
     }
     #endregion
 
+    public PlayerBehaviour Player { get; private set; }
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        Player = GameObject.FindWithTag("Player").GetComponent<PlayerBehaviour>();
+        SetState(new PlayerTurn(this));
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void PlayerMove(Vector2Int coords)
+    {
+        currentState.PlayerMove(coords);
     }
 }
