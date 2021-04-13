@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerBehaviour : MonoBehaviour
 {
-
     public Vector2Int PlayerPosition { get; private set; }
     /// <summary>
     /// This value is more for animation speed than anything
