@@ -47,8 +47,9 @@ public class GridManager : MonoBehaviour
         {
             for(int j = 0; j < maxHeight; j++)
             {
-                grid[i, j] = Instantiate(gridTile, new Vector3(i * tileSize, 0, j * tileSize), Quaternion.identity).GetComponent<TileBehaviour>();
+                grid[i, j] = Instantiate(gridTile, new Vector3(i * -tileSize + transform.position.x, 0, j * tileSize + transform.position.z), Quaternion.identity).GetComponent<TileBehaviour>();
                 grid[i, j].SetCoords(i, j);
+                grid[i, j].SetScale(new Vector3(tileSize, 0.1f, tileSize));
                 grid[i, j].transform.parent = gameObject.transform;
                 SetTileWalkable(grid[i, j]);
             }

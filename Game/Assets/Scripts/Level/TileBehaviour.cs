@@ -29,6 +29,11 @@ public class TileBehaviour : MonoBehaviour
         Coords = new Vector2Int(x, y);
     }
 
+    public void SetScale(Vector3 newScale)
+    {
+        transform.localScale = newScale;
+    }
+
     public void CalculateFCost()
     {
         fCost = gCost + hCost;
