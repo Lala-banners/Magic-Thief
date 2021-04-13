@@ -18,6 +18,7 @@ public class PlayerBehaviour : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        PlayerPosition = new Vector2Int(0, 5);
     }
 
     // Update is called once per frame
