@@ -13,10 +13,12 @@ public class PlayerBehaviour : MonoBehaviour
 
     private List<TileBehaviour> path;
 
+    private Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -33,11 +35,13 @@ public class PlayerBehaviour : MonoBehaviour
 
     private IEnumerator Movement()
     {
+        animator.SetBool("Moving", true);
         for (int i = 1; i < path.Count; i++)
         {
             float increment = 0.0f;
             Vector3 start = transform.position;
             Vector3 end = path[i].transform.position;
+            transform.rotation = Quaternion.LookRotation(end - start, Vector3.up);
             while (increment < 1.0f)
             {
                 increment += Time.deltaTime * moveSpeed;
@@ -47,5 +51,6 @@ public class PlayerBehaviour : MonoBehaviour
             transform.position = end;
         }
         PlayerPosition = path[path.Count - 1].Coords;
+        animator.SetBool("Moving", false);
     }
 }
