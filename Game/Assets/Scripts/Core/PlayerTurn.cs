@@ -8,6 +8,8 @@ public class PlayerTurn : GameState
     private bool hasActed = false;
     private bool turnPassed = false;
 
+    //Add in something for the state the player is in - can only move when in move state, actions in action state etc.
+
     public PlayerTurn(GameManager machine) : base(machine)
     {
     }
@@ -27,11 +29,11 @@ public class PlayerTurn : GameState
         }
     }
 
-    public override void PlayerAction()
+    public override void PlayerAction(Interactable script)
     {
         if (!hasActed)
         {
-            //Insert action here
+            script.Interact();
             hasActed = true;
         }
     }

@@ -13,7 +13,7 @@ public abstract class GameState
 
     public virtual void OnEnter() { }
     public virtual void PlayerMove(Vector2Int target) { }
-    public virtual void PlayerAction() { }
+    public virtual void PlayerAction(Interactable script) { }
     public virtual void EnemyMove() { }
     public virtual void EnemyAction() { }
     public virtual bool IsTurnOver() { return false; }

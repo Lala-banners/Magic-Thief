@@ -39,4 +39,9 @@ public class GameManager : StateMachine
     {
         currentState.PlayerMove(coords);
     }
+
+    public void Activate(Interactable script)
+    {
+        currentState.PlayerAction(script);
+    }
 }

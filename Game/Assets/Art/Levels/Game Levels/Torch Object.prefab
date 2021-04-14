@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6315088486205545188}
   - component: {fileID: 8090510903178440238}
   - component: {fileID: 5998848652195969717}
+  - component: {fileID: -6167203858030290343}
   m_Layer: 0
   m_Name: Torch Object
   m_TagString: Untagged
@@ -95,3 +96,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0045234826, y: 0.015076272, z: 0.006496931}
   m_Center: {x: 0.0000000023283067, y: 0.0024078772, z: 0.0032063655}
+--- !u!114 &-6167203858030290343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7730350407927435259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc6eccda23c8d540a772295b2d3cd6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLit: 1
