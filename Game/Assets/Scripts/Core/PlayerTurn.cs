@@ -34,7 +34,7 @@ public class PlayerTurn : GameState
         if (!hasActed)
         {
             script.Interact();
-            hasActed = true;
+            //uncomment this enevtually //hasActed = true;
         }
     }
 
