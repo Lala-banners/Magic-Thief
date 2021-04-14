@@ -15,11 +15,11 @@ C:/Users/joshm/Documents/GitHub/Thief-Stone/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65358
+60712
 Successfully changed project path to: C:/Users/joshm/Documents/GitHub/Thief-Stone/Game
 C:/Users/joshm/Documents/GitHub/Thief-Stone/Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 65.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,130 +36,353 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002574 seconds.
+Registered in 0.004942 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 73.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.921 seconds
+- Completed reload, in  4.559 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001949 seconds.
+Registered in 0.003593 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
+- Completed reload, in  1.523 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2490 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.3 MB.
-System memory in use after: 116.5 MB.
+System memory in use before: 116.5 MB.
+System memory in use after: 116.7 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2938.
-Total: 3.060300 ms (FindLiveObjects: 0.371700 ms CreateObjectMapping: 0.171600 ms MarkObjects: 2.435900 ms  DeleteObjects: 0.079900 ms)
+Total: 4.028300 ms (FindLiveObjects: 0.303900 ms CreateObjectMapping: 0.096300 ms MarkObjects: 3.511200 ms  DeleteObjects: 0.115000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Level/TileBehaviour.cs
-  artifactKey: Guid(7f2f3d7cd9bec7f4bbb682a09ef3626a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Level/TileBehaviour.cs using Guid(7f2f3d7cd9bec7f4bbb682a09ef3626a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529bf377ab42e906930f6f0af99670ac') in 0.023565 seconds
-  Import took 0.027942 seconds .
+  path: Assets/Prefabs/Tile.prefab
+  artifactKey: Guid(12c51e05fad2a25448950fab146239e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tile.prefab using Guid(12c51e05fad2a25448950fab146239e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78eb519bdc52a3e853e7ae6204b90de6') in 0.255330 seconds
+  Import took 0.259510 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Scripts/Level/GridManager.cs
-  artifactKey: Guid(ff063a760d7bee54c94efd43c1265614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Level/GridManager.cs using Guid(ff063a760d7bee54c94efd43c1265614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2bab4f20dd308c1ce7259cc42f6ab0') in 0.003289 seconds
-  Import took 0.006663 seconds .
+  Time since last request: 7.225607 seconds.
+  path: Assets/Art/3D Assets/Player/UV_Character_Thief_C.jpg
+  artifactKey: Guid(792ca1dcbcdac3947a96f317d46a25cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Player/UV_Character_Thief_C.jpg using Guid(792ca1dcbcdac3947a96f317d46a25cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba3e9d6ac8f9077f62ca5ec2cb19314') in 0.117626 seconds
+  Import took 0.125382 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.165547 seconds.
-  path: Assets/Scripts/Player/PlayerBehaviour.cs
-  artifactKey: Guid(98869b64279f3c3478954594e030ec7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerBehaviour.cs using Guid(98869b64279f3c3478954594e030ec7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db117acc15171b62028493df44fe50a5') in 0.004119 seconds
-  Import took 0.007783 seconds .
+  Time since last request: 7.801863 seconds.
+  path: Assets/Art/Levels/Game Levels/Crate Pile.prefab
+  artifactKey: Guid(cc62620eef1d9b84bb42ad5eeca7337a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Crate Pile.prefab using Guid(cc62620eef1d9b84bb42ad5eeca7337a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef39e82efddbb87208d494274c6ffcb8') in 0.037176 seconds
+  Import took 0.045700 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000867 seconds.
-  path: Assets/Scripts/Player/PlayerBehaviour.cs
-  artifactKey: Guid(98869b64279f3c3478954594e030ec7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerBehaviour.cs using Guid(98869b64279f3c3478954594e030ec7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db117acc15171b62028493df44fe50a5') in 0.002913 seconds
-  Import took 0.006164 seconds .
+  Time since last request: 0.000502 seconds.
+  path: Assets/Art/Levels/Game Levels/Room BT.prefab
+  artifactKey: Guid(a429a062b464375429f8e9fedc4a80c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Room BT.prefab using Guid(a429a062b464375429f8e9fedc4a80c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed88fea2cb3ad62fc2beddeadbf2bce') in 0.112667 seconds
+  Import took 0.126358 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.936881 seconds.
-  path: Assets/Scripts/Player/PlayerBehaviour.cs
-  artifactKey: Guid(98869b64279f3c3478954594e030ec7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerBehaviour.cs using Guid(98869b64279f3c3478954594e030ec7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31639e7a6e73f2d19372e17253133031') in 0.003508 seconds
-  Import took 0.007533 seconds .
+  Time since last request: 0.000370 seconds.
+  path: Assets/Art/Levels/Game Levels/Crate Stack.prefab
+  artifactKey: Guid(73c75a0aa3486944189612a61ea44ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Crate Stack.prefab using Guid(73c75a0aa3486944189612a61ea44ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533672735889bfed1b1233b433cfe3c9') in 0.025190 seconds
+  Import took 0.032528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Art/Levels/Game Levels/Room BTLR.prefab
+  artifactKey: Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Room BTLR.prefab using Guid(744e3119fb5af5241b85a4463dc84efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3522b0073312c1b755e0775917fcfccd') in 0.074850 seconds
+  Import took 0.088426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Art/Levels/Game Levels/Room BR.prefab
+  artifactKey: Guid(14c060308b0a3764588c2242d6909d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Room BR.prefab using Guid(14c060308b0a3764588c2242d6909d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da98f97e73517202e7cfa8f58637beb') in 0.075871 seconds
+  Import took 0.089288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Art/Levels/Game Levels/UV_Object_Crate_C.jpg
+  artifactKey: Guid(1948e5760556b88499b544bcc07c3542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/UV_Object_Crate_C.jpg using Guid(1948e5760556b88499b544bcc07c3542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e4d525d618460a3a6d60c3c91ca0a5') in 0.021442 seconds
+  Import took 0.028839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Art/Levels/Game Levels/Torch Object.prefab
+  artifactKey: Guid(2fb8a8057ec34284c9751f5ab26a2256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Torch Object.prefab using Guid(2fb8a8057ec34284c9751f5ab26a2256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5178aadfa132ea4e7534a87685796c4') in 0.035909 seconds
+  Import took 0.045086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Art/Levels/Game Levels/Hallway Long.prefab
+  artifactKey: Guid(b859af58c5f70864ca0e23a15e464104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Hallway Long.prefab using Guid(b859af58c5f70864ca0e23a15e464104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af4e524218cce8e6c78588a2906e0c6') in 0.049514 seconds
+  Import took 0.059327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Art/Levels/Game Levels/Crate Pile.prefab
+  artifactKey: Guid(cc62620eef1d9b84bb42ad5eeca7337a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Crate Pile.prefab using Guid(cc62620eef1d9b84bb42ad5eeca7337a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef39e82efddbb87208d494274c6ffcb8') in 0.016824 seconds
+  Import took 0.024175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Art/Levels/Game Levels/UV_Object_Sconce_C.jpg
+  artifactKey: Guid(dea9226a4add5ac41bd9b0381f3cca32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/UV_Object_Sconce_C.jpg using Guid(dea9226a4add5ac41bd9b0381f3cca32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce043de26895afb2bc1438625ce7844e') in 0.022936 seconds
+  Import took 0.031112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Art/Levels/Game Levels/UV_Wall_Pillar_C.jpg
+  artifactKey: Guid(f3e9307575089314b9de111460d4605a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/UV_Wall_Pillar_C.jpg using Guid(f3e9307575089314b9de111460d4605a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a84789b468ce2bbf82c3130b4c5cb9d') in 0.013437 seconds
+  Import took 0.020401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Art/Levels/Game Levels/Start.prefab
+  artifactKey: Guid(97f2acd5f0f9e9d49b1c6f4c8d32a363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Start.prefab using Guid(97f2acd5f0f9e9d49b1c6f4c8d32a363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd943a2c353b59c131b564a5bc729a69f') in 0.062873 seconds
+  Import took 0.071904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Art/Levels/Game Levels/Dead End Room.prefab
+  artifactKey: Guid(dc2e47109d1e9f24fa8034f21b24777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Dead End Room.prefab using Guid(dc2e47109d1e9f24fa8034f21b24777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d693021bc3fe1953d6605e114bb7517') in 0.078387 seconds
+  Import took 0.093278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Art/Levels/Game Levels/Level 1.prefab
+  artifactKey: Guid(257d775b4f7b1354580e462bdc375caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Level 1.prefab using Guid(257d775b4f7b1354580e462bdc375caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d73d3c27a0df22a551fca92032e988') in 0.189895 seconds
+  Import took 0.205146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Art/Levels/Game Levels/Door Prefab.prefab
+  artifactKey: Guid(d206cde7845543c469dbf448869e54e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Door Prefab.prefab using Guid(d206cde7845543c469dbf448869e54e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5568a861004e5387739dfad4f2df653') in 0.017310 seconds
+  Import took 0.023869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Art/Levels/Game Levels/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5c73b3c3e7318eb0a4bed6f7cafe73') in 0.125051 seconds
+  Import took 0.143943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Art/Levels/Game Levels/Short Hallway.prefab
+  artifactKey: Guid(022a1dc10dc018c4cb4f767a5d0e436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Short Hallway.prefab using Guid(022a1dc10dc018c4cb4f767a5d0e436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6cb4cdd1fa337958aca91ecd2fa460') in 0.038233 seconds
+  Import took 0.045963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Art/Levels/Game Levels/UV_Object_Door_C.jpg
+  artifactKey: Guid(55ed4f36c8601c64d8653825e0f3e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/UV_Object_Door_C.jpg using Guid(55ed4f36c8601c64d8653825e0f3e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644e121c0754c28ae5c9777d289e474d') in 0.017872 seconds
+  Import took 0.026841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Art/Levels/Game Levels/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5c73b3c3e7318eb0a4bed6f7cafe73') in 0.131331 seconds
+  Import took 0.145676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/Art/Levels/Game Levels/UV_Object_Door_C.jpg
+  artifactKey: Guid(55ed4f36c8601c64d8653825e0f3e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/UV_Object_Door_C.jpg using Guid(55ed4f36c8601c64d8653825e0f3e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644e121c0754c28ae5c9777d289e474d') in 0.014132 seconds
+  Import took 0.019824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 516.451733 seconds.
+  path: Assets/Art/Levels/Game Levels/Dead End Room.prefab
+  artifactKey: Guid(dc2e47109d1e9f24fa8034f21b24777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Dead End Room.prefab using Guid(dc2e47109d1e9f24fa8034f21b24777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8c768702d5c1768d8095312c2349cd') in 0.095997 seconds
+  Import took 0.110461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Art/Levels/Game Levels/Room BR.prefab
+  artifactKey: Guid(14c060308b0a3764588c2242d6909d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Room BR.prefab using Guid(14c060308b0a3764588c2242d6909d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f232fbbeac0d04bd48d3235bd27012fc') in 0.125394 seconds
+  Import took 0.140065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Art/Levels/Game Levels/Torch Object.prefab
+  artifactKey: Guid(2fb8a8057ec34284c9751f5ab26a2256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Torch Object.prefab using Guid(2fb8a8057ec34284c9751f5ab26a2256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c20a32d852a17b1a1151ff443f05be') in 0.025861 seconds
+  Import took 0.034382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/Art/Levels/Game Levels/Level 1.prefab
+  artifactKey: Guid(257d775b4f7b1354580e462bdc375caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Level 1.prefab using Guid(257d775b4f7b1354580e462bdc375caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b348ec6348fa02aa461af968aab803b') in 0.162588 seconds
+  Import took 0.178018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Art/Levels/Game Levels/Test Lvl Pattern.prefab
+  artifactKey: Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Levels/Game Levels/Test Lvl Pattern.prefab using Guid(873985e5168c86845bd7df44a6c8c8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c5a60455e29734beca9b8bb8d61c59') in 0.112849 seconds
+  Import took 0.125388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1158.159564 seconds.
+  path: Assets/Scripts/Player/Torch.cs
+  artifactKey: Guid(ecc6eccda23c8d540a772295b2d3cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Torch.cs using Guid(ecc6eccda23c8d540a772295b2d3cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a0634f7ab5f40f9c7ab4db514b1d96') in 0.007344 seconds
+  Import took 0.012347 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001856 seconds.
+Registered in 0.001897 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.784 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2378 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.3 MB.
-System memory in use after: 110.5 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.3 MB.
+System memory in use after: 118.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2940.
-Total: 2.115100 ms (FindLiveObjects: 0.419800 ms CreateObjectMapping: 0.060600 ms MarkObjects: 1.609400 ms  DeleteObjects: 0.022700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2988.
+Total: 2.919100 ms (FindLiveObjects: 0.357100 ms CreateObjectMapping: 0.079900 ms MarkObjects: 2.462800 ms  DeleteObjects: 0.018200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001833 seconds.
+Registered in 0.001983 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
+- Completed reload, in  0.880 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2378 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.4 MB.
-System memory in use after: 111.6 MB.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.3 MB.
+System memory in use after: 118.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2942.
-Total: 2.072400 ms (FindLiveObjects: 0.255900 ms CreateObjectMapping: 0.062500 ms MarkObjects: 1.735400 ms  DeleteObjects: 0.017700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2990.
+Total: 2.098600 ms (FindLiveObjects: 0.295800 ms CreateObjectMapping: 0.059700 ms MarkObjects: 1.723500 ms  DeleteObjects: 0.017400 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 149.300817 seconds.
+  path: Assets/Scripts/Level/Torch.cs
+  artifactKey: Guid(ecc6eccda23c8d540a772295b2d3cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Level/Torch.cs using Guid(ecc6eccda23c8d540a772295b2d3cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d294c9602594dedba3d1a20dc1e7615') in 0.006455 seconds
+  Import took 0.010409 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002642 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.743 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.4 MB.
+System memory in use after: 118.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2992.
+Total: 8.000100 ms (FindLiveObjects: 0.456800 ms CreateObjectMapping: 0.177400 ms MarkObjects: 7.326700 ms  DeleteObjects: 0.036800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 54177.901397 seconds.
+  path: Assets/Scripts/Level/Torch.cs
+  artifactKey: Guid(ecc6eccda23c8d540a772295b2d3cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Level/Torch.cs using Guid(ecc6eccda23c8d540a772295b2d3cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0104fb795877b59ccb3e5e787ac55f8') in 0.013063 seconds
+  Import took 0.021614 seconds .
+
