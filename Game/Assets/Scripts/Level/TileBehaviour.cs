@@ -49,13 +49,14 @@ public class TileBehaviour : MonoBehaviour
         GameManager.Instance.PlayerMove(Coords);
     }
 
-    /// <summary>
-    /// Enables or disables mesh renderer.
-    /// Testing code, mainly
-    /// </summary>
-    /// <param name="isMeshEnabled"></param>
-    public void Test(bool isMeshEnabled)
+    private void OnTriggerEnter(Collider other)
     {
-        mesh.enabled = isMeshEnabled;
+        isWalkable = false;
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        isWalkable = true;
     }
 }

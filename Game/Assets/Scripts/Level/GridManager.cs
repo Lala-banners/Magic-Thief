@@ -18,6 +18,18 @@ public class GridManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+        grid = new TileBehaviour[maxLength, maxHeight];
+        for(int i = 0; i < maxLength; i++)
+        {
+            for(int j = 0; j < maxHeight; j++)
+            {
+                grid[i, j] = Instantiate(gridTile, new Vector3(i * -tileSize + transform.position.x, 0, j * tileSize + transform.position.z), Quaternion.identity).GetComponent<TileBehaviour>();
+                grid[i, j].SetCoords(i, j);
+                grid[i, j].SetScale(new Vector3(tileSize, 0.1f, tileSize));
+                grid[i, j].transform.parent = gameObject.transform;
+                SetTileWalkable(grid[i, j]);
+            }
+        }
     }
     #endregion
 
@@ -42,18 +54,6 @@ public class GridManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        grid = new TileBehaviour[maxLength, maxHeight];
-        for(int i = 0; i < maxLength; i++)
-        {
-            for(int j = 0; j < maxHeight; j++)
-            {
-                grid[i, j] = Instantiate(gridTile, new Vector3(i * -tileSize + transform.position.x, 0, j * tileSize + transform.position.z), Quaternion.identity).GetComponent<TileBehaviour>();
-                grid[i, j].SetCoords(i, j);
-                grid[i, j].SetScale(new Vector3(tileSize, 0.1f, tileSize));
-                grid[i, j].transform.parent = gameObject.transform;
-                SetTileWalkable(grid[i, j]);
-            }
-        }
     }
 
     /// <summary>
@@ -79,12 +79,6 @@ public class GridManager : MonoBehaviour
     /// <returns>A list of tiles from start to end</returns>
     public List<TileBehaviour> FindPath(Vector2Int start, Vector2Int destination)
     {
-        //This part is probably temporary/test stuff
-        foreach(TileBehaviour tile in grid)
-        {
-            tile.Test(false);
-        }
-        //End of temp part
 
         TileBehaviour startNode = grid[start.x, start.y];
         TileBehaviour endNode = grid[destination.x, destination.y];

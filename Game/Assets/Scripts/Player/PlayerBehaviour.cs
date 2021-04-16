@@ -30,7 +30,14 @@ public class PlayerBehaviour : MonoBehaviour
     public void MoveToSpace(Vector2Int destination)
     {
         path = GridManager.Instance.FindPath(PlayerPosition, destination);
-        StartCoroutine(nameof(Movement));
+        if(path != null)
+        {
+            StartCoroutine(nameof(Movement));
+        }
+        else
+        {
+            //do something else
+        }
     }
 
     private IEnumerator Movement()
