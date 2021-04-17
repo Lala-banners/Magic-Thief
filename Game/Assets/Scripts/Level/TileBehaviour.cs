@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class TileBehaviour : MonoBehaviour
 {
-    private MeshRenderer mesh;
     private GridManager manager;
     public Vector2Int Coords { get; private set; }
 
@@ -18,9 +17,7 @@ public class TileBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mesh = GetComponent<MeshRenderer>();
         manager = GetComponentInParent<GridManager>();
-        GetComponent<MeshRenderer>().enabled = false;
         isWalkable = true;
     }
 
