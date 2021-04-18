@@ -27,50 +27,33 @@ public class GridManager : MonoBehaviour
                 grid[i, j].SetCoords(i, j);
                 grid[i, j].SetScale(new Vector3(tileSize, 0.1f, tileSize));
                 grid[i, j].transform.parent = gameObject.transform;
-                SetTileWalkable(grid[i, j]);
             }
         }
     }
     #endregion
 
-
+    //Grid generation
     [SerializeField]
     private GameObject gridTile;
-    private TileBehaviour[,] grid;
-
-    //Algorithm parameters
-    private List<TileBehaviour> openList;
-    private List<TileBehaviour> closedList;
-    //End of algorithm parameters
-
     [SerializeField]
     private int maxLength = 10;
     [SerializeField]
     private int maxHeight = 10;
 
+    //Algorithm parameters
+    private TileBehaviour[,] grid;
+    private List<TileBehaviour> openList;
+    private List<TileBehaviour> closedList;
+
+
     [SerializeField]
     private float tileSize = 1.0f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
+    [SerializeField]
+    private Sprite[] tileSprites;
+    public List<TileBehaviour> highlightedPath;
 
-    /// <summary>
-    /// Changes whether the tile is active or not. A tile should be deactivated when a wall, closed door, or other unpathable items are on top of it
-    /// </summary>
-    /// <param name="tile">The tile being activated/deactivated</param>
-    private void SetTileWalkable(TileBehaviour tile)
-    {
-        /*
-        if(!Physics.Raycast(tile.transform.position, Vector3.up, 1.0f, LayerMask.GetMask("Room")))
-        {
-            tile.isWalkable = false;
-            tile.gameObject.GetComponent<BoxCollider>().enabled = false;
-        }
-        */
-    }
-
+    #region Pathfinding
     /// <summary>
     /// Finds a path from one tile to another using a variation of the A* pathfinding algorithm
     /// </summary>
@@ -139,7 +122,7 @@ public class GridManager : MonoBehaviour
         }
 
         //Out of nodes on the open list
-        return null;
+        return new List<TileBehaviour>();
     }
 
     /// <summary>
@@ -209,5 +192,14 @@ public class GridManager : MonoBehaviour
             }
         }
         return lowestFCostNode;
+    }
+    #endregion
+
+    public void HighlightPath(bool isActive, int spriteIndex)
+    {
+        foreach (TileBehaviour tile in highlightedPath)
+        {
+            tile.SetSprite(isActive, tileSprites[spriteIndex]);
+        }
     }
 }

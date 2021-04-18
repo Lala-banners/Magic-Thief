@@ -11,12 +11,14 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private float moveSpeed = 2.0f;
 
     private List<TileBehaviour> path;
+    public bool IsMoving { get; private set; }
 
     private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
+        IsMoving = false;
         animator = GetComponent<Animator>();
         PlayerPosition = new Vector2Int(0, 5);
     }
@@ -30,7 +32,7 @@ public class PlayerBehaviour : MonoBehaviour
     public void MoveToSpace(Vector2Int destination)
     {
         path = GridManager.Instance.FindPath(PlayerPosition, destination);
-        if(path != null)
+        if(path.Count > 0)
         {
             StartCoroutine(nameof(Movement));
         }
@@ -42,7 +44,8 @@ public class PlayerBehaviour : MonoBehaviour
 
     private IEnumerator Movement()
     {
-        animator.SetBool("Moving", true);
+        IsMoving = true;
+        animator.SetBool("Moving", IsMoving);
         for (int i = 1; i < path.Count; i++)
         {
             float increment = 0.0f;
@@ -58,6 +61,7 @@ public class PlayerBehaviour : MonoBehaviour
             transform.position = end;
         }
         PlayerPosition = path[path.Count - 1].Coords;
-        animator.SetBool("Moving", false);
+        IsMoving = false;
+        animator.SetBool("Moving", IsMoving);
     }
 }

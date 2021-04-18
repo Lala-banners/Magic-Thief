@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class TileBehaviour : MonoBehaviour
 {
-    private GridManager manager;
     public Vector2Int Coords { get; private set; }
 
     //Parameters for the pathfinding algorithm
@@ -14,11 +13,14 @@ public class TileBehaviour : MonoBehaviour
     public bool isWalkable;
     public TileBehaviour cameFromNode;
 
+    private SpriteRenderer tileSprite;
+
     // Start is called before the first frame update
     void Start()
     {
-        manager = GetComponentInParent<GridManager>();
         isWalkable = true;
+        tileSprite = GetComponentInChildren<SpriteRenderer>();
+        tileSprite.enabled = false;
     }
 
     public void SetCoords(int x, int y)
@@ -31,9 +33,25 @@ public class TileBehaviour : MonoBehaviour
         transform.localScale = newScale;
     }
 
+    public void SetSprite(bool isActive, Sprite sprite)
+    {
+        tileSprite.enabled = isActive;
+        tileSprite.sprite = sprite;
+    }
+
     public void CalculateFCost()
     {
         fCost = gCost + hCost;
+    }
+
+    private void OnMouseEnter()
+    {
+        if (!GameManager.Instance.Player.IsMoving)
+        {
+            GridManager.Instance.HighlightPath(false, 0);
+            GridManager.Instance.highlightedPath = GridManager.Instance.FindPath(GameManager.Instance.Player.PlayerPosition, Coords);
+            GridManager.Instance.HighlightPath(true, GridManager.Instance.highlightedPath.Count <= 3 ? 0 : 1);
+        }
     }
 
     private void OnMouseDown()

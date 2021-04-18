@@ -24,7 +24,7 @@ public class PlayerTurn : GameState
         if (!hasMoved)
         {
             GameManager.Instance.Player.MoveToSpace(target);
-            
+            GridManager.Instance.HighlightPath(false, 0);
             //uncomment this eventually //hasMoved = true;
         }
     }
