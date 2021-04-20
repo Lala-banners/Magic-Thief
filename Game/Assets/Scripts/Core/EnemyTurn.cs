@@ -10,7 +10,8 @@ public class EnemyTurn : GameState
 
     public override void OnEnter()
     {
-        base.OnEnter();
+        //Temporary code for testing
+        system.currentState.EndTurn();
     }
 
     public override void EnemyMove()

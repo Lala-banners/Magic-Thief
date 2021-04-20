@@ -50,7 +50,7 @@ public class TileBehaviour : MonoBehaviour
         {
             GridManager.Instance.HighlightPath(false, 0);
             GridManager.Instance.highlightedPath = GridManager.Instance.FindPath(GameManager.Instance.Player.PlayerPosition, Coords);
-            GridManager.Instance.HighlightPath(true, GridManager.Instance.highlightedPath.Count <= 3 ? 0 : 1);
+            GridManager.Instance.HighlightPath(true, GridManager.Instance.highlightedPath.Count <= GameManager.Instance.Player.maxMoveDistance ? 0 : 1);
         }
     }
 

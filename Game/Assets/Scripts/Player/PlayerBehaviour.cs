@@ -9,6 +9,7 @@ public class PlayerBehaviour : MonoBehaviour
     /// This value is more for animation speed than anything
     /// </summary>
     [SerializeField] private float moveSpeed = 2.0f;
+    public int maxMoveDistance = 10;
 
     private List<TileBehaviour> path;
     public bool IsMoving { get; private set; }
@@ -29,15 +30,17 @@ public class PlayerBehaviour : MonoBehaviour
         
     }
 
-    public void MoveToSpace(Vector2Int destination)
+    public bool MoveToSpace(Vector2Int destination)
     {
         path = GridManager.Instance.FindPath(PlayerPosition, destination);
-        if(path.Count > 0)
+        if(maxMoveDistance >= path.Count && path.Count > 0)
         {
             StartCoroutine(nameof(Movement));
+            return true;
         }
         else
         {
+            return false;
             //do something else
         }
     }

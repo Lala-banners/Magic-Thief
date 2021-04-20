@@ -6,7 +6,6 @@ public class PlayerTurn : GameState
 {
     private bool hasMoved = false;
     private bool hasActed = false;
-    private bool turnPassed = false;
 
     //Add in something for the state the player is in - can only move when in move state, actions in action state etc.
 
@@ -23,9 +22,20 @@ public class PlayerTurn : GameState
     {
         if (!hasMoved)
         {
-            GameManager.Instance.Player.MoveToSpace(target);
+            hasMoved = GameManager.Instance.Player.MoveToSpace(target);
             GridManager.Instance.HighlightPath(false, 0);
-            //uncomment this eventually //hasMoved = true;
+        }
+        else
+        {
+            if (!hasActed)
+            {
+                hasActed = GameManager.Instance.Player.MoveToSpace(target);
+                GridManager.Instance.HighlightPath(false, 0);
+            }
+        }
+        if (IsTurnOver())
+        {
+            EndTurn();
         }
     }
 
@@ -34,17 +44,22 @@ public class PlayerTurn : GameState
         if (!hasActed)
         {
             script.Interact();
-            //uncomment this enevtually //hasActed = true;
+            hasActed = true;
+            if (IsTurnOver())
+            {
+                EndTurn();
+            }
         }
     }
 
     public override bool IsTurnOver()
     {
-        return (hasActed && hasMoved) || turnPassed;
+        return hasActed && hasMoved;
     }
 
     public override void EndTurn()
     {
+        Debug.Log("turn over");
         system.SetState(new EnemyTurn(system));
     }
 }
