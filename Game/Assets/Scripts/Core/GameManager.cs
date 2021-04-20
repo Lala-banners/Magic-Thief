@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : StateMachine
 {
@@ -21,6 +22,10 @@ public class GameManager : StateMachine
     #endregion
 
     public PlayerBehaviour Player { get; private set; }
+
+    public Button moveIndicator;
+    public Button actionIndicator;
+    public Button endTurnButton;
 
     // Start is called before the first frame update
     void Start()
@@ -43,5 +48,21 @@ public class GameManager : StateMachine
     public void Activate(Interactable script)
     {
         currentState.PlayerAction(script);
+    }
+
+    public void EndTurn()
+    {
+        currentState.EndTurn();
+    }
+
+    public void TemporaryTesting()
+    {
+        StartCoroutine(nameof(TempCoroutine));
+    }
+
+    private IEnumerator TempCoroutine()
+    {
+        yield return new WaitForSeconds(1.0f);
+        currentState.EndTurn();
     }
 }

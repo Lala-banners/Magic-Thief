@@ -15,7 +15,9 @@ public class PlayerTurn : GameState
 
     public override void OnEnter()
     {
-        base.OnEnter();
+        system.moveIndicator.interactable = true;
+        system.actionIndicator.interactable = true;
+        system.endTurnButton.interactable = true;
     }
 
     public override void PlayerMove(Vector2Int target)
@@ -23,6 +25,7 @@ public class PlayerTurn : GameState
         if (!hasMoved)
         {
             hasMoved = GameManager.Instance.Player.MoveToSpace(target);
+            system.moveIndicator.interactable = !hasMoved;
             GridManager.Instance.HighlightPath(false, 0);
         }
         else
@@ -30,6 +33,7 @@ public class PlayerTurn : GameState
             if (!hasActed)
             {
                 hasActed = GameManager.Instance.Player.MoveToSpace(target);
+                system.actionIndicator.interactable = !hasActed;
                 GridManager.Instance.HighlightPath(false, 0);
             }
         }
@@ -45,6 +49,7 @@ public class PlayerTurn : GameState
         {
             script.Interact();
             hasActed = true;
+            system.actionIndicator.interactable = false;
             if (IsTurnOver())
             {
                 EndTurn();
@@ -59,6 +64,7 @@ public class PlayerTurn : GameState
 
     public override void EndTurn()
     {
+        system.endTurnButton.interactable = false;
         Debug.Log("turn over");
         system.SetState(new EnemyTurn(system));
     }

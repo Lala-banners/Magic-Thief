@@ -11,7 +11,7 @@ public class EnemyTurn : GameState
     public override void OnEnter()
     {
         //Temporary code for testing
-        system.currentState.EndTurn();
+        system.TemporaryTesting();
     }
 
     public override void EnemyMove()
