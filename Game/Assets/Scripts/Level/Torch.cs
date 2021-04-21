@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Torch : Interactable
 {
@@ -14,7 +15,8 @@ public class Torch : Interactable
 
     private void OnMouseDown()
     {
-        Activate();
+        if (!EventSystem.current.IsPointerOverGameObject())
+            Activate();
     }
 
     private void Activate()

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class TileBehaviour : MonoBehaviour
 {
@@ -61,7 +62,8 @@ public class TileBehaviour : MonoBehaviour
         //{
         //  tile.Test(true);
         //}
-        GameManager.Instance.PlayerMove(Coords);
+        if (!EventSystem.current.IsPointerOverGameObject())
+            GameManager.Instance.PlayerMove(Coords);
     }
 
     private void OnTriggerEnter(Collider other)
