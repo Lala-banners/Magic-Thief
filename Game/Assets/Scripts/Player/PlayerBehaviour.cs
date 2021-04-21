@@ -67,4 +67,11 @@ public class PlayerBehaviour : MonoBehaviour
         IsMoving = false;
         animator.SetBool("Moving", IsMoving);
     }
+
+    public void ActionAnim(Interactable script)
+    {
+        script.Interact();
+        transform.LookAt(new Vector3(script.transform.position.x, 0, script.transform.position.z));
+        animator.SetTrigger("Magic");
+    }
 }

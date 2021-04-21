@@ -24,7 +24,7 @@ public class PlayerTurn : GameState
     {
         if (!hasMoved)
         {
-            hasMoved = GameManager.Instance.Player.MoveToSpace(target);
+            hasMoved = system.Player.MoveToSpace(target);
             system.moveIndicator.interactable = !hasMoved;
             GridManager.Instance.HighlightPath(false, 0);
         }
@@ -32,7 +32,7 @@ public class PlayerTurn : GameState
         {
             if (!hasActed)
             {
-                hasActed = GameManager.Instance.Player.MoveToSpace(target);
+                hasActed = system.Player.MoveToSpace(target);
                 system.actionIndicator.interactable = !hasActed;
                 GridManager.Instance.HighlightPath(false, 0);
             }
@@ -47,7 +47,7 @@ public class PlayerTurn : GameState
     {
         if (!hasActed)
         {
-            script.Interact();
+            system.Player.ActionAnim(script);
             hasActed = true;
             system.actionIndicator.interactable = false;
             if (IsTurnOver())
