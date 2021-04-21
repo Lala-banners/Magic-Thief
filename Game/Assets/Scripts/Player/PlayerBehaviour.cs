@@ -70,8 +70,14 @@ public class PlayerBehaviour : MonoBehaviour
 
     public void ActionAnim(Interactable script)
     {
-        script.Interact();
+        StartCoroutine(nameof(InteractAfterDelay), script);
         transform.LookAt(new Vector3(script.transform.position.x, 0, script.transform.position.z));
         animator.SetTrigger("Magic");
+    }
+
+    private IEnumerator InteractAfterDelay(Interactable script)
+    {
+        yield return new WaitForSeconds(1.0f);
+        script.Interact();
     }
 }
