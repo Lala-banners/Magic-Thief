@@ -378,3 +378,76 @@ Received Import Request.
 Start importing Assets/Josh/Temp/Vignette.asset using Guid(8166aac2f00d3944aa618c0610094047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c7ea3ed5b429a5183f486222995823') in 0.014599 seconds
   Import took 0.021410 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 68.817819 seconds.
+  path: Assets/Josh/Temporary/Vignette.asset
+  artifactKey: Guid(8166aac2f00d3944aa618c0610094047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Josh/Temporary/Vignette.asset using Guid(8166aac2f00d3944aa618c0610094047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dae5abac8dddda4d84d3d21bd65023') in 0.008311 seconds
+  Import took 0.015252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.708132 seconds.
+  path: Assets/Josh/Temporary
+  artifactKey: Guid(92fa7f55298ba4f4793260d11e0be0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Josh/Temporary using Guid(92fa7f55298ba4f4793260d11e0be0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3332fe2eedba37401925ab16410e25') in 0.013935 seconds
+  Import took 0.019591 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003269 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.521 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2380 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.2 MB.
+System memory in use after: 113.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2978.
+Total: 2.969300 ms (FindLiveObjects: 0.449600 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.390300 ms  DeleteObjects: 0.023500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.379736 seconds.
+  path: Assets/Josh/Temporary/CustomPostProcessData.asset
+  artifactKey: Guid(6a2e776b587c7bc479261cc61d86be6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Josh/Temporary/CustomPostProcessData.asset using Guid(6a2e776b587c7bc479261cc61d86be6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3203931a97558c8e47afc1ab1d0ec9') in 0.031476 seconds
+  Import took 0.037244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.068630 seconds.
+  path: Assets/Josh/Temporary/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(0b0c19e93d9542340b8453afe391abc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Josh/Temporary/UniversalRenderPipelineAsset.asset using Guid(0b0c19e93d9542340b8453afe391abc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88588d1b0c5f2e162dffd24370a20df') in 0.024958 seconds
+  Import took 0.034232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Josh/Temporary/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(654f1ea04f2b02a42a810788ccef47b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Josh/Temporary/UniversalRenderPipelineAsset_Renderer.asset using Guid(654f1ea04f2b02a42a810788ccef47b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614be9edcf41cdb2d544e6804e03378f') in 0.020467 seconds
+  Import took 0.029138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.253317 seconds.
+  path: Assets/Shaders/Galaxy Pulse/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(e86af471ecc70b84eb0309215e92309e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Galaxy Pulse/UniversalRenderPipelineAsset.asset using Guid(e86af471ecc70b84eb0309215e92309e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dd228347d791cd0f6d02d9331b7481') in 0.013238 seconds
+  Import took 0.024477 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

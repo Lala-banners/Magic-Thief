@@ -1261,12 +1261,12 @@ GameObject:
   - component: {fileID: 1309362914}
   - component: {fileID: 1309362913}
   m_Layer: 0
-  m_Name: Global Volume
+  m_Name: Post Processing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1309362913
 MonoBehaviour:
   m_ObjectHideFlags: 0
