@@ -27,9 +27,14 @@ public class GameManager : StateMachine
     public Button actionIndicator;
     public Button endTurnButton;
 
+    public int playerTurnsPassed;
+    public int enemyTurnsPassed;
+
     // Start is called before the first frame update
     void Start()
     {
+        playerTurnsPassed = 0;
+        enemyTurnsPassed = 0;
         Player = GameObject.FindWithTag("Player").GetComponent<PlayerBehaviour>();
         SetState(new PlayerTurn(this));
     }
