@@ -26,6 +26,7 @@ public class EnemyTurn : GameState
 
     public override void EndTurn()
     {
+        system.enemyTurnsPassed++;
         system.SetState(new PlayerTurn(system));
     }
 }

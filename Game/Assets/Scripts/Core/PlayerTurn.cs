@@ -65,7 +65,7 @@ public class PlayerTurn : GameState
     public override void EndTurn()
     {
         system.endTurnButton.interactable = false;
-        Debug.Log("turn over");
+        system.playerTurnsPassed++;
         system.SetState(new EnemyTurn(system));
     }
 }
