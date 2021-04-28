@@ -563,6 +563,35 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0be6d4be775a20342a013cbed3033f05, type: 3}
   m_PrefabInstance: {fileID: 1444592521}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &638961833
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638961829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05, y: 0.05, z: 0.05}
+  m_Center: {x: 0, y: 0.1, z: 0}
+--- !u!54 &638961834
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638961829}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 3
 --- !u!1 &656736564
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,6 +1006,8 @@ MonoBehaviour:
   moveIndicator: {fileID: 1942247376}
   actionIndicator: {fileID: 981757252}
   endTurnButton: {fileID: 1307703874}
+  playerTurnsPassed: 0
+  enemyTurnsPassed: 0
 --- !u!114 &963194231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1850,6 +1881,10 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4001763718907932855, guid: 257d775b4f7b1354580e462bdc375caf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4519855368764126712, guid: 257d775b4f7b1354580e462bdc375caf, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -1985,6 +2020,10 @@ PrefabInstance:
     - target: {fileID: 7358970782986158637, guid: 257d775b4f7b1354580e462bdc375caf, type: 3}
       propertyPath: m_BoundingSphereOverride.w
       value: 1e-45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730441321397618125, guid: 257d775b4f7b1354580e462bdc375caf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8481681580349238540, guid: 257d775b4f7b1354580e462bdc375caf, type: 3}
       propertyPath: m_BoundingSphereOverride.w
