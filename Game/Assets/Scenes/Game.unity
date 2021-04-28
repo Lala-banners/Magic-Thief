@@ -977,6 +977,8 @@ MonoBehaviour:
   moveIndicator: {fileID: 1942247376}
   actionIndicator: {fileID: 981757252}
   endTurnButton: {fileID: 1307703874}
+  playerTurnsPassed: 0
+  enemyTurnsPassed: 0
 --- !u!114 &963194231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1813,6 +1815,10 @@ PrefabInstance:
     - target: {fileID: 438036924069541800, guid: 257d775b4f7b1354580e462bdc375caf, type: 3}
       propertyPath: m_BoundingSphereOverride.x
       value: 6.201844e+22
+      objectReference: {fileID: 0}
+    - target: {fileID: 565499233475849123, guid: 257d775b4f7b1354580e462bdc375caf, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3187931452116409264, guid: 257d775b4f7b1354580e462bdc375caf, type: 3}
       propertyPath: m_Convex
