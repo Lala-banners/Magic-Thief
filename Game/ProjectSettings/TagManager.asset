@@ -9,6 +9,7 @@ TagManager:
   - Hallway
   - Long
   - Short
+  - Room
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - UI
   - Ground
   - Room
-  - 
-  - 
+  - Player
+  - Obsticles
   - 
   - 
   - 
