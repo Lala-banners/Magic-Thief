@@ -626,9 +626,8 @@ MonoBehaviour:
   maxHeight: 54
   tileSize: 9
   tileSprites:
-  - {fileID: 21300000, guid: 0a36bf6cd3ec5ca4397a719cad3bd4a2, type: 3}
   - {fileID: 21300000, guid: d64bdb50958e6574fbbedf34f2a1ad90, type: 3}
-  - {fileID: 21300000, guid: 54c64c65f0826094197539a2cffdf8b9, type: 3}
+  - {fileID: 21300000, guid: 0a36bf6cd3ec5ca4397a719cad3bd4a2, type: 3}
   highlightedPath: []
 --- !u!4 &656736566
 Transform:
@@ -929,7 +928,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 25
+  orthographic size: 40
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
