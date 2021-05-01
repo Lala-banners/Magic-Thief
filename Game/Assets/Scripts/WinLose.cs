@@ -4,12 +4,28 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor;
 
-public class UI_Manager : MonoBehaviour
+public class WinLose : MonoBehaviour
 {
     [Header("UI")]
     public GameObject gameOver;
     public GameObject win;
     public CameraFollow cameraFollow;
+    public GameObject player;
+    private bool gameEnded;
+
+    public static WinLose instance;
+
+    private void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +38,8 @@ public class UI_Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.O))
+        //Test
+        if (Input.GetKeyDown(KeyCode.O))
         {
             GameOver();
         }
@@ -30,24 +47,32 @@ public class UI_Manager : MonoBehaviour
 
     public void WinGame()
     {
-        cameraFollow.enabled = false; //Disable camera follow script
-        win.SetActive(true);
-        Time.timeScale = 0;
+        if (!gameEnded)
+        {
+            gameEnded = true;
+            cameraFollow.enabled = false; //Disable camera follow script
+            win.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
 
     public void GameOver()
     {
-        cameraFollow.enabled = false; //Disable camera follow script
-        gameOver.SetActive(true);
-        Time.timeScale = 0;
+        if (!gameEnded)
+        {
+            cameraFollow.enabled = false; //Disable camera follow script
+            gameOver.SetActive(true);
+            Time.timeScale = 0;
+            gameEnded = true;
+        }
     }
 
     public void QuitGame()
     {
         Debug.Log("Quitting Game");
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         EditorApplication.ExitPlaymode();
-        #endif
+#endif
         Application.Quit();
     }
 
