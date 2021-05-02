@@ -31,7 +31,9 @@ namespace AI.Herd
 
         public int raycountTotal;
 
-        public float AgentMoveSpeed = 1f;
+
+        public int maxMoveDistance = 10;
+        public float MoveSpeed = 5f;
         //this is a void so the rooms can load first and the guards can load after
         public void SpawnAgents()
         {
@@ -72,6 +74,7 @@ namespace AI.Herd
                 agent.viewMesh = new Mesh();
                 agent.viewMesh.name = "View Mesh";
                 agent.viewMeshFilter.mesh = agent.viewMesh;
+                agent.moveSpeed = MoveSpeed;
                 for (int i = 0; i < agentPosList.Count; i++)
                 {
                     Vector3 NeighborCheck = (agentPosList[i] - agent.transform.position).normalized;
@@ -79,10 +82,12 @@ namespace AI.Herd
                     //if this doesnt work than change this to ! or add a layermask
                     if (!Physics.Raycast(agent.transform.position, NeighborCheck, distanceToNeighbor) && distanceToNeighbor < NegighborRadius)
                     {
-                        agent.Pos = new Vector2Int(0, 5);
+                       
                         Debug.Log(agent.ID);
                     }
                 }
+                agent.AgentPos = new Vector2Int(0, 5);
+                agent.maxMoveDistance = maxMoveDistance;
                 agent.Initialised = true;
             }
         }

@@ -7,7 +7,8 @@ using UnityEngine;
 
 public class IdleState : State
 {
-    public DetectedState detectedState; 
+    public DetectedState detectedState;
+    public PursueState pursueState;
     public override State RunCurrentState(GuardAgent agent, Animator animator)
     {
         Vector3 dirToPlayer = (agent.player.position - agent.transform.position).normalized;
@@ -21,7 +22,7 @@ public class IdleState : State
             {
                 Debug.DrawLine(agent.transform.position, agent.player.position, Color.red);
                 //there are no obstacles in the way of vision
-                return detectedState;
+                return pursueState;
             }
         }
         return this;

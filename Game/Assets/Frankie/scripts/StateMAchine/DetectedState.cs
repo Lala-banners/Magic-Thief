@@ -19,14 +19,28 @@ public class DetectedState : State
         //else if 1 turn has passed and the player is hiden then enter search state
         
         agent.ViewConeColor = Color.red;
-        if (agent.ATTACKTEST == true)
+
+        agent.path = GridManager.Instance.FindPath(agent.AgentPos, GameManager.Instance.Player.PlayerPosition);
+        if (agent.oneTurnHasPassed == true)
         {
-            return pursueState;
+            if (agent.maxMoveDistance >= agent.path.Count && agent.path.Count > 1)
+            {
+                return pursueState;
+            }
+            else if (agent.path.Count == 1)
+            {
+                return attackState;
+            }
+            else
+            {
+                return IdleState;
+            }
+
         }
         else
         {
             return this;
         }
-        
+
     }
 }

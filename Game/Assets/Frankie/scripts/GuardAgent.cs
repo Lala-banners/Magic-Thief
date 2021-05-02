@@ -38,11 +38,13 @@ namespace AI.Agent
 
 		}
 
-		[Header("The Grid part")]
-		public int filler;
-		public Vector2Int Pos { get; set; }
+		public Vector2Int AgentPos { get; set; }
+		public List<TileBehaviour> path;
+		public int maxMoveDistance;
+		public Vector2Int playerCoords;
 		public float moveSpeed;
 
+		public bool oneTurnHasPassed = false;
 	}
 }
 

@@ -290,7 +290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AgentPrefab: {fileID: 2827117123248598106, guid: 56fe29a743fa3614084ec3bf6695d6e4, type: 3}
   SpawnRooms: []
-  GuardsPerRoom: 2
+  GuardsPerRoom: 1
   spawnRadius: 50
   NegighborRadius: 1
   DefaultViewRadius: 20
@@ -303,8 +303,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   player: {fileID: 638961832}
-  detectedMat: {fileID: 2100000, guid: ac2d91eb04e61004780464ea7bf9d4a5, type: 2}
   raycountTotal: 0
+  maxMoveDistance: 10
+  MoveSpeed: 1
 --- !u!4 &58292018
 Transform:
   m_ObjectHideFlags: 0

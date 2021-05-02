@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: IdleState
   m_EditorClassIdentifier: 
   detectedState: {fileID: 11400000, guid: f28c7fef8ccda1d4bbeb55c35f329a9c, type: 2}
-  Test: 0
+  pursueState: {fileID: 11400000, guid: c691f0f441cb1734aaf876385ef74359, type: 2}
