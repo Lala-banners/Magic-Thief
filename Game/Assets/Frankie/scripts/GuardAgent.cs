@@ -45,6 +45,25 @@ namespace AI.Agent
 		public float moveSpeed;
 
 		public bool oneTurnHasPassed = false;
+
+		public IEnumerator agentMovement(GuardAgent agent)
+		{
+			for (int i = 1; i < agent.path.Count; i++)
+			{
+				float increment = 0.0f;
+				Vector3 start = agent.transform.position;
+				Vector3 end = agent.path[i].transform.position;
+				agent.transform.rotation = Quaternion.LookRotation(end - start, Vector3.up);
+				while (increment < 1.0f)
+				{
+					increment += Time.deltaTime * agent.moveSpeed;
+					agent.transform.position = Vector3.Lerp(start, end, increment);
+					yield return null;
+				}
+				agent.transform.position = end;
+			}
+			agent.AgentPos = agent.path[agent.path.Count - 1].Coords;
+		}
 	}
 }
 

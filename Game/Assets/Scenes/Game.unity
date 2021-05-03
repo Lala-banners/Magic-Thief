@@ -306,7 +306,7 @@ MonoBehaviour:
   player: {fileID: 638961832}
   raycountTotal: 0
   maxMoveDistance: 10
-  MoveSpeed: 5
+  MoveSpeed: 1
 --- !u!4 &58292018
 Transform:
   m_ObjectHideFlags: 0
