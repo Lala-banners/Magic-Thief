@@ -15,7 +15,7 @@ public class PursueState : State
     {
         agent.path = GridManager.Instance.FindPath(agent.AgentPos, GameManager.Instance.Player.PlayerPosition);
         //if the agent is within 10 squares of the player
-        if (agent.maxMoveDistance >= agent.path.Count && agent.path.Count > 1)
+        if (agent.maxMoveDistance >= agent.path.Count && agent.path.Count > 0)
         {
             for (int i = 1; i < agent.path.Count; i++)
             {
@@ -27,13 +27,14 @@ public class PursueState : State
                 {
                     increment += Time.deltaTime * agent.moveSpeed;
                     agent.transform.position = Vector3.Lerp(start, end, increment);
+                    return null;
                 }
                 agent.transform.position = end;
             }
             agent.AgentPos = agent.path[agent.path.Count - 1].Coords;
             return this;
         }
-        else if (agent.path.Count < 2)
+        else if (agent.path.Count == 0)
         {
             return attackState;
         }

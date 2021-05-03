@@ -12,8 +12,17 @@ public class AttackState : State
     public override State RunCurrentState(GuardAgent agent, Animator animator)
     {
         Debug.Log("I SPIT ON U AND UR FAMILY" + agent.ID);
-        agent.ATTACKTEST = false;
-        return pursueState;
-        //return this;
+        agent.path = GridManager.Instance.FindPath(agent.AgentPos, GameManager.Instance.Player.PlayerPosition);
+        //if the agent is within the chase distance of player squares of the player
+        if (agent.path.Count > 1)
+        {
+            return pursueState;
+        }
+        else
+        {
+            //return pursueState;
+            return this;
+        }
+            
     }
 }

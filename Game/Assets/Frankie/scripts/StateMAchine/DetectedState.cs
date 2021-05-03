@@ -23,11 +23,11 @@ public class DetectedState : State
         agent.path = GridManager.Instance.FindPath(agent.AgentPos, GameManager.Instance.Player.PlayerPosition);
         if (agent.oneTurnHasPassed == true)
         {
-            if (agent.maxMoveDistance >= agent.path.Count && agent.path.Count > 1)
+            if (agent.maxMoveDistance >= agent.path.Count && agent.path.Count > 0)
             {
                 return pursueState;
             }
-            else if (agent.path.Count == 1)
+            else if (agent.path.Count <= 1)
             {
                 return attackState;
             }

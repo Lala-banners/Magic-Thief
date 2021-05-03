@@ -42,7 +42,7 @@ public class GameManager : StateMachine
     // Update is called once per frame
     void Update()
     {
-        
+        currentState.EnemyMove();
     }
 
     public void PlayerMove(Vector2Int coords)

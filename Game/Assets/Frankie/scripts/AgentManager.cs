@@ -7,9 +7,22 @@ namespace AI.Herd
 {
     public class AgentManager : MonoBehaviour
     {
+        public static AgentManager Instance = null;
+        private void Awake()
+        {
+            if (Instance == null)
+            {
+                Instance = this;
+            }
+            else if (Instance != this)
+            {
+                Destroy(gameObject);
+                return;
+            }
+        }
         //BASE
         public GuardAgent AgentPrefab;
-        List<GuardAgent> agents = new List<GuardAgent>();
+        public List<GuardAgent> agents = new List<GuardAgent>();
 
         //SPAWNING
         [Header("Spawning")]
@@ -98,11 +111,11 @@ namespace AI.Herd
         }
         private void Update()
         {
-            foreach (GuardAgent agent in agents)
-            {
-                RunStateMachine(agent);
+           // foreach (GuardAgent agent in agents)
+           // {
+           //     RunStateMachine(agent);
 
-            }
+           // }
             
         }
         private void LateUpdate()
@@ -113,7 +126,7 @@ namespace AI.Herd
                 raycountTotal = agent.rayCount * agents.Count;
             }
         }
-        private void RunStateMachine(GuardAgent agent)
+        public void RunStateMachine(GuardAgent agent)
         {
             //the "nextState" is the current state's (but only if its not null) next state which is returned in the current states script 
             State nextState = agent.currentState?.RunCurrentState(agent, agent.GuardAnimator);
@@ -188,6 +201,7 @@ namespace AI.Herd
                 angle = _angle;
             }
         }
+       
     }
 
 }

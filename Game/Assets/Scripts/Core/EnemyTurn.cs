@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AI.Herd;
+using AI.Agent;
 
 public class EnemyTurn : GameState
 {
+    
     public EnemyTurn(GameManager machine) : base(machine)
     {
     }
@@ -16,7 +19,12 @@ public class EnemyTurn : GameState
 
     public override void EnemyMove()
     {
-        base.EnemyMove();
+        foreach (GuardAgent agent in AgentManager.Instance.agents)
+        {
+           AgentManager.Instance.RunStateMachine(agent);
+
+        }
+
     }
 
     public override void EnemyAction()
