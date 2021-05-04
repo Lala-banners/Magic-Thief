@@ -138,3 +138,131 @@ Received Import Request.
 Start importing Assets/Scripts/Enemies using Guid(be74cfe713a57144fa8c74f8146b69db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79998cc671361b1ea2724dc7565abb3') in 0.009837 seconds
   Import took 0.024372 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 201.438799 seconds.
+  path: Assets/Art/3D Assets/Animation_Guard_Reboot.fbx
+  artifactKey: Guid(c596814ffe7607042a3f5b0ffa8a2f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Animation_Guard_Reboot.fbx using Guid(c596814ffe7607042a3f5b0ffa8a2f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27a7182986d01b7eb547828c6f8f272') in 0.986154 seconds
+  Import took 0.997541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/Art/3D Assets/Animation_Guard_Shutdown_v1.1.fbx
+  artifactKey: Guid(5ff8c4e37f2b34446abe88230caf3de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Animation_Guard_Shutdown_v1.1.fbx using Guid(5ff8c4e37f2b34446abe88230caf3de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a06d50ff97fde1fa0a3b8ca9fc3ecc') in 0.128403 seconds
+  Import took 0.141905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.592944 seconds.
+  path: Assets/Art/3D Assets/Pulse.unitypackage
+  artifactKey: Guid(6dab32db6673c0c49ba725bec52acac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Pulse.unitypackage using Guid(6dab32db6673c0c49ba725bec52acac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5f5f29d8198da2dea4ee0dfc39785d') in 0.029648 seconds
+  Import took 0.038947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006385 seconds.
+  path: Assets/Art/3D Assets/Pulse.unitypackage
+  artifactKey: Guid(6dab32db6673c0c49ba725bec52acac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Pulse.unitypackage using Guid(6dab32db6673c0c49ba725bec52acac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5f5f29d8198da2dea4ee0dfc39785d') in 0.010001 seconds
+  Import took 0.022441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.170242 seconds.
+  path: Assets/Art/3D Assets/Guard Assets
+  artifactKey: Guid(d701d4188e9e449429b821a730a3e976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Guard Assets using Guid(d701d4188e9e449429b821a730a3e976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a65c1ba97b9179783f2de479e20733') in 0.022874 seconds
+  Import took 0.045348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032973 seconds.
+  path: Assets/Art/3D Assets/Guard Assets/Animation_Guard_Attack_Slash.fbx
+  artifactKey: Guid(2f72d1c2e0f04e24f8453c26980da207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Guard Assets/Animation_Guard_Attack_Slash.fbx using Guid(2f72d1c2e0f04e24f8453c26980da207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e1b9ff2f897a78224abf0ecf12686b') in 0.123429 seconds
+  Import took 0.136861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/Art/3D Assets/Guard Assets/Animation_Guard_Interact.fbx
+  artifactKey: Guid(ad5d86fc297098c4abb1b61a71b18b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Guard Assets/Animation_Guard_Interact.fbx using Guid(ad5d86fc297098c4abb1b61a71b18b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860eb44f4810a8b242a2fa0c25017acc') in 0.110252 seconds
+  Import took 0.121273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Art/3D Assets/Guard Assets/UV_Guard_C.jpg
+  artifactKey: Guid(0bdf08fe401f1cd459b0f47cbd9ea121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Guard Assets/UV_Guard_C.jpg using Guid(0bdf08fe401f1cd459b0f47cbd9ea121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145a8562d64ffaf5db4027e3d92a2f35') in 0.105152 seconds
+  Import took 0.115588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/Art/3D Assets/Guard Assets/Animation_Guard_Walk_v1.1.fbx
+  artifactKey: Guid(d5f9792c42bafd2478e21cbedc505f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Guard Assets/Animation_Guard_Walk_v1.1.fbx using Guid(d5f9792c42bafd2478e21cbedc505f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0533cc381225d24cf202756823002922') in 0.167591 seconds
+  Import took 0.181748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000844 seconds.
+  path: Assets/Art/3D Assets/Guard Assets/Animation_Guard_Idle.fbx
+  artifactKey: Guid(eabfd1061f99f9a4cbf5d66cba18b12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Guard Assets/Animation_Guard_Idle.fbx using Guid(eabfd1061f99f9a4cbf5d66cba18b12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11afda9df3ae583770979a78eb76bb7') in 0.192767 seconds
+  Import took 0.214582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000948 seconds.
+  path: Assets/Art/3D Assets/Guard Assets/Animation_Guard_Shutdown_v1.fbx
+  artifactKey: Guid(e2acb83d0eaea394588cc2a1f6bfcbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Guard Assets/Animation_Guard_Shutdown_v1.fbx using Guid(e2acb83d0eaea394588cc2a1f6bfcbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d3fc0320ee95509bf3cfcb42b068aa') in 0.169168 seconds
+  Import took 0.187493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000740 seconds.
+  path: Assets/Art/3D Assets/Guard Assets/Guard_Model.fbx
+  artifactKey: Guid(b4aa1ab0d56fdc84a9f4f1edf061b57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Guard Assets/Guard_Model.fbx using Guid(b4aa1ab0d56fdc84a9f4f1edf061b57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb10f47a097870f5d7699271ca83cfc3') in 0.138837 seconds
+  Import took 0.154167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005634 seconds.
+  path: Assets/Art/3D Assets/Guard Assets/Guard_Model.fbx
+  artifactKey: Guid(b4aa1ab0d56fdc84a9f4f1edf061b57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Guard Assets/Guard_Model.fbx using Guid(b4aa1ab0d56fdc84a9f4f1edf061b57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb10f47a097870f5d7699271ca83cfc3') in 0.122810 seconds
+  Import took 0.137978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.306414 seconds.
+  path: Assets/Art/3D Assets/Guard Assets/Animation_Guard_Reboot.fbx
+  artifactKey: Guid(c596814ffe7607042a3f5b0ffa8a2f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Guard Assets/Animation_Guard_Reboot.fbx using Guid(c596814ffe7607042a3f5b0ffa8a2f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a0cdeccd0c32e41f23bbaf425e3ce2') in 0.064077 seconds
+  Import took 0.073192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000783 seconds.
+  path: Assets/Art/3D Assets/Guard Assets/Guard_Skin.mat
+  artifactKey: Guid(e5c776b901ac4ec4d9aa2e0e68ff8360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Guard Assets/Guard_Skin.mat using Guid(e5c776b901ac4ec4d9aa2e0e68ff8360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5102cf6aed845c63f412bceef8cf049f') in 0.057129 seconds
+  Import took 0.067061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.501109 seconds.
+  path: Assets/Art/3D Assets/Guard Assets/Animation_Guard_Shutdown_v1.1.fbx
+  artifactKey: Guid(5ff8c4e37f2b34446abe88230caf3de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/3D Assets/Guard Assets/Animation_Guard_Shutdown_v1.1.fbx using Guid(5ff8c4e37f2b34446abe88230caf3de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79ace50f28d9d8164b6b86ba6b3a999') in 0.059849 seconds
+  Import took 0.080409 seconds .
+
