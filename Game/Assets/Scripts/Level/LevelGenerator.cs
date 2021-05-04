@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class LevelGenerator : MonoBehaviour
 {
-    //public List<GameObject> layout = new List<GameObject>(); //List of spawnable room layouts
     public GameObject level;
 
     private void Start()
@@ -25,8 +24,6 @@ public class LevelGenerator : MonoBehaviour
 
     public void GenerateMap()
     {
-        //GameObject go = layout[Random.Range(0, layout.Count)];
-
         //To spawn level layout
         Instantiate(level, transform.position, transform.rotation);
         Destroy(gameObject);

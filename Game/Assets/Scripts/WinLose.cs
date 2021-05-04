@@ -39,10 +39,10 @@ public class WinLose : MonoBehaviour
     void Update()
     {
         //Test
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            GameOver();
-        }
+        //if (Input.GetKeyDown(KeyCode.O))
+        //{
+        //    GameOver();
+        //}
     }
 
     public void WinGame()
