@@ -26,8 +26,7 @@ public class Torch : Interactable
 
     public override void Interact()
     {
-        isLit = false;
+        isLit = !isLit;
         torchLight.enabled = isLit;
-        Debug.Log("torch turned off");
     }
 }

@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 4603581215367349896}
   - component: {fileID: 1731568019835007554}
   - component: {fileID: 2829624596496698852}
+  - component: {fileID: 1511777479974210218}
+  - component: {fileID: 5205030945428209616}
+  - component: {fileID: 9036807590668680291}
   m_Layer: 0
   m_Name: Door Prefab
   m_TagString: Untagged
@@ -93,5 +96,49 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019276792, y: 0.036705535, z: 0.0039350353}
-  m_Center: {x: -0.009629001, y: 0, z: 0.0016745557}
+  m_Size: {x: 0.019276792, y: 0.058089968, z: 0.0011102026}
+  m_Center: {x: -0.009629001, y: -0.010692231, z: 0.0012716191}
+--- !u!65 &1511777479974210218
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218212928625480599}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.03, z: 0.01}
+  m_Center: {x: -0.01, y: 0, z: 0}
+--- !u!95 &5205030945428209616
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218212928625480599}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53c94ea783cafcb49b4bf5b22f4a8af9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &9036807590668680291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218212928625480599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51be5931d4c8e3141ae0a21537cf71e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
