@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerBehaviour : MonoBehaviour
 {
-    public Vector2Int PlayerPosition { get; private set; }
+    public Vector2Int playerPosition;
     /// <summary>
     /// This value is more for animation speed than anything
     /// </summary>
@@ -21,7 +21,6 @@ public class PlayerBehaviour : MonoBehaviour
     {
         IsMoving = false;
         animator = GetComponent<Animator>();
-        PlayerPosition = new Vector2Int(0, 5);
     }
 
     // Update is called once per frame
@@ -32,7 +31,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     public bool MoveToSpace(Vector2Int destination)
     {
-        path = GridManager.Instance.FindPath(PlayerPosition, destination);
+        path = GridManager.Instance.FindPath(playerPosition, destination);
         if(maxMoveDistance >= path.Count && path.Count > 0)
         {
             StartCoroutine(nameof(Movement));
@@ -63,7 +62,7 @@ public class PlayerBehaviour : MonoBehaviour
             }
             transform.position = end;
         }
-        PlayerPosition = path[path.Count - 1].Coords;
+        playerPosition = path[path.Count - 1].coords;
         IsMoving = false;
         animator.SetBool("Moving", IsMoving);
     }

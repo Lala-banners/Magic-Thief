@@ -87,7 +87,7 @@ public class GridManager : MonoBehaviour
         while(openList.Count > 0)
         {
             TileBehaviour currentNode = GetLowestFCostNode(openList);
-            if(currentNode.Coords == destination)
+            if(currentNode.coords == destination)
             {
                 //Reached final node
                 return CalculatePath(grid[destination.x, destination.y]);
@@ -96,7 +96,7 @@ public class GridManager : MonoBehaviour
             openList.Remove(currentNode);
             closedList.Add(currentNode);
 
-            foreach(TileBehaviour neighbourNode in GetNeighbourList(currentNode.Coords))
+            foreach(TileBehaviour neighbourNode in GetNeighbourList(currentNode.coords))
             {
                 if (closedList.Contains(neighbourNode)) continue;
                 if (!neighbourNode.isWalkable)
@@ -175,7 +175,7 @@ public class GridManager : MonoBehaviour
     /// </summary>
     private float CalculateDistance(TileBehaviour a, TileBehaviour b)
     {
-        return Vector2Int.Distance(a.Coords, b.Coords);
+        return Vector2Int.Distance(a.coords, b.coords);
     }
 
     /// <summary>

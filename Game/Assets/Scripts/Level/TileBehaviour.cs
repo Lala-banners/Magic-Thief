@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class TileBehaviour : MonoBehaviour
 {
-    public Vector2Int Coords { get; private set; }
+    public Vector2Int coords;
 
     //Parameters for the pathfinding algorithm
     public float gCost;
@@ -26,7 +26,7 @@ public class TileBehaviour : MonoBehaviour
 
     public void SetCoords(int x, int y)
     {
-        Coords = new Vector2Int(x, y);
+        coords = new Vector2Int(x, y);
     }
 
     public void SetScale(Vector3 newScale)
@@ -50,7 +50,7 @@ public class TileBehaviour : MonoBehaviour
         if (!GameManager.Instance.Player.IsMoving)
         {
             GridManager.Instance.HighlightPath(false, 0);
-            GridManager.Instance.highlightedPath = GridManager.Instance.FindPath(GameManager.Instance.Player.PlayerPosition, Coords);
+            GridManager.Instance.highlightedPath = GridManager.Instance.FindPath(GameManager.Instance.Player.playerPosition, coords);
             GridManager.Instance.HighlightPath(true, GridManager.Instance.highlightedPath.Count <= GameManager.Instance.Player.maxMoveDistance ? 0 : 1);
         }
     }
@@ -63,7 +63,7 @@ public class TileBehaviour : MonoBehaviour
         //  tile.Test(true);
         //}
         if (!EventSystem.current.IsPointerOverGameObject())
-            GameManager.Instance.PlayerMove(Coords);
+            GameManager.Instance.PlayerMove(coords);
     }
 
     private void OnTriggerEnter(Collider other)
