@@ -15,6 +15,7 @@ public class Door : MonoBehaviour
     {
         if(other.CompareTag("Player"))
             doorAnimator.SetTrigger("Open");
+     
     }
 
     private void OnTriggerExit(Collider other)
